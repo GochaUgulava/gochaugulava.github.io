@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Science Roadmap | Complete Learning Path</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Fira Sans Condensed', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Fira Sans Condensed', sans-serif;
+            background-color: #FDFDFF;
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.5s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f5f9;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 5px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+    </style>
+</head>
+<body class="bg-[#FDFDFF]">
+    <!-- Back Button - Top -->
+    <div class="sticky top-0 z-50 bg-white/70 backdrop-blur-xl border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <a href="index.html" class="inline-flex items-center gap-2 text-indigo-600 font-bold hover:gap-3 transition-all group">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="group-hover:scale-110 transition-transform">
+                    <line x1="19" y1="12" x2="5" y2="12"/>
+                    <polyline points="12 19 5 12 12 5"/>
+                </svg>
+                Back to Home
+            </a>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 fade-in">
+        <!-- Header -->
+        <div class="mb-16">
+            <div class="flex items-center gap-4 mb-6">
+                <div class="w-16 h-16 bg-indigo-600 rounded-2xl flex items-center justify-center shadow-xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                        <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                    </svg>
+                </div>
+                <div>
+                    <h1 class="text-5xl sm:text-6xl font-black text-slate-900 tracking-tight">Data Science Roadmap</h1>
+                    <p class="text-xl text-slate-500 mt-2">Complete Learning Path for ML / AI / Data Science</p>
+                </div>
+            </div>
+            <div class="bg-gradient-to-r from-indigo-600 to-purple-600 h-2 rounded-full w-full"></div>
+        </div>
+
+        <!-- Roadmap Sections -->
+        <div class="space-y-8">
+            <!-- Mathematics Section -->
+            <section class="bg-white rounded-[2rem] p-8 shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-300">
+                <h2 class="text-3xl font-black text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center text-xl font-bold">1</span>
+                    Mathematics
+                </h2>
+                <div class="space-y-6">
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Linear Algebra</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Scalars, vectors, matrices; Square matrices, identity matrix, triangular matrices; Unit vectors; Sparse vs dense matrices; Scalar multiplication; Vector and matrix addition; Matrix multiplication (rules and algorithms); Transpose, conjugate transpose; Symmetric, Hermitian, skew-Hermitian, unitary matrices; Rank, determinant, trace; Matrix inverse; Vector spaces; Basis and dimension; Span; Orthogonality and orthonormality; Linear transformations; Solving systems of linear equations; Gaussian elimination; Gauss–Jordan elimination; LU decomposition; QR decomposition; Eigenvalues and eigenvectors; Diagonalization; Singular Value Decomposition (SVD); Inner and outer products; Linear least squares
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Calculus (Single & Multivariate)</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Functions of a single variable; Functions of several variables; Limits; Continuity; Derivatives; Partial derivatives; Gradients; Jacobians; Hessians; Minimum and maximum of functions; Optimization intuition; Step function; Sigmoid function; Logit function; ReLU (Rectified Linear Unit); Softmax; Cost / loss functions
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Probability Theory and Distributions</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Probability axioms; Infinite sample spaces; Axiomatic probability; Measure theory; Random variables; Discrete and continuous distributions; Probability density functions; Expectation; Variance; Covariance; Conditional probability; Bayes' theorem; Conditional expectation; Least squares prediction; Law of Large Numbers; Central Limit Theorem; Poisson approximation; Poisson process; Brownian motion; Stochastic processes; Stationary processes; Markov chains; Markovian processes
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Optimization Methods</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Objective / cost functions; Error functions; Likelihood functions; Gradient Descent algorithm; Variants of Gradient Descent (batch, stochastic, mini-batch, etc.)
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Advanced Optimization & Operations Research</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Convex vs non-convex optimization; Linear & Integer Programming; Stochastic optimization; Constraint optimization; Reinforcement Learning + OR hybrids; Scheduling & resource allocation
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Statistics Section -->
+            <section class="bg-white rounded-[2rem] p-8 shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-300">
+                <h2 class="text-3xl font-black text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-green-100 text-green-600 rounded-xl flex items-center justify-center text-xl font-bold">2</span>
+                    Statistics
+                </h2>
+                <div class="space-y-6">
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Descriptive Statistics</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Measures of central tendency (mean, median, mode); Measures of dispersion (range, variance, standard deviation, IQR); Skewness; Kurtosis; Frequency tables; Summary statistics
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Sampling & Estimation</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Sampling techniques; Sampling distributions; Sample survey methods; Point estimation; Interval estimation; Confidence intervals
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Inferential Statistics</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Hypothesis testing; p-values; Significance testing; Parametric tests; Non-parametric tests; Analysis of Variance (ANOVA)
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Regression & Correlation Analysis</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Linear regression; Logistic regression; Multicollinearity; Model diagnostics; Correlation analysis
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Time Series & Stochastic Data</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Time series analysis ARIMA, SARIMA; State space models; Forecasting
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Bayesian Statistics</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Prior; Likelihood; Posterior; Bayesian inference; Bayesian methods; MCMC basics
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Experimental Design</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Experimental design principles; Factorial experiments; A/B testing; Power analysis; A/B testing at scale
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Nonparametric & Robust Methods</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Nonparametric methods
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Statistical Process & Decision Analysis</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Statistical process control; Decision analysis
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Advanced Statistics & Causal Inference</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Causal graphs (Directed Acyclic Graphs, DAGs); Do-calculus (conceptual); Instrumental variables; Propensity score matching; Difference-in-differences; Synthetic analysis; Regression discontinuity; Uplift modeling
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Programming Section -->
+            <section class="bg-white rounded-[2rem] p-8 shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-300">
+                <h2 class="text-3xl font-black text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-purple-100 text-purple-600 rounded-xl flex items-center justify-center text-xl font-bold">3</span>
+                    Programming (Core Technical Skill)
+                </h2>
+                <div class="space-y-6">
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Programming Languages (Python / R / MATLAB–Octave)</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Syntax and semantics; Data types and objects; Variables; Conditions and loops; List / dictionary comprehensions; Functions; Object-Oriented Programming (OOP); Functional programming; Error handling & exceptions; File I/O; Virtual environments; Package and dependency management
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Data Structures & Algorithms</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Arrays; Lists; Stacks; Queues; Trees; Graphs; Searching algorithms; Sorting algorithms; Big-O notation
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Working with Libraries, Modules & Frameworks</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Working with external libraries; Modules and frameworks; Scientific and data analysis libraries
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Databases & Data Storage</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            SQL scripting; Joins; Subqueries; Indexing; NoSQL basics; Data modeling
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Scientific Computing & Modeling</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Development and modeling in MATLAB / Octave; Simulation and visualization of models; Brain circuits and neural networks modeling; Data-driven decision making; Pattern discovery and predictive modeling
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Parallel & High-Performance Computing</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Parallel computing; Performance optimization
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Software Engineering Practices</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Clean code principles; Tidy / readable code; Code optimization; Unit testing; Integration testing; Version control systems (Git); Command-line interface (CLI) usage; Integrated Development Environments (PyCharm, Anaconda, Jupyter Notebooks, etc.)
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Model Deployment & Production</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Model deployment; Packaging applications; Dependency management in production
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Software & Web Development Best Practices</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Software development best practices; Web development best practices
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Data Extraction & Wrangling Section -->
+            <section class="bg-white rounded-[2rem] p-8 shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-300">
+                <h2 class="text-3xl font-black text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-yellow-100 text-yellow-600 rounded-xl flex items-center justify-center text-xl font-bold">4</span>
+                    Data Extraction & Wrangling
+                </h2>
+                <div class="space-y-6">
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Data Sources & Extraction</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Web scraping; APIs; Database extraction (SQL / NoSQL); Scripting for data extraction from websites, APIs, and databases
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">ETL & Data Pipelines</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            ETL pipelines (Extract, Transform, Load); Data ingestion workflows; Automation of data pipelines
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Data Formatting & Validation</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Data validation; Data type conversion; Data formatting and schema consistency
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Data Cleaning & Quality Control</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Handling missing values; Outlier detection; Data quality checks
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Data Transformation</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Joining and merging datasets; Slicing and indexing; Grouping and aggregating; Data reshaping
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Feature Engineering & Preprocessing</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Feature engineering; Data normalization; Data scaling
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Core Libraries & Tools</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            NumPy; Pandas; SciPy; Scikit-learn; TensorFlow; Keras; R libraries
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Data Preparation for Modeling</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Preparing datasets for machine learning; Train / validation / test splits
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Machine Learning Section -->
+            <section class="bg-white rounded-[2rem] p-8 shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-300">
+                <h2 class="text-3xl font-black text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-red-100 text-red-600 rounded-xl flex items-center justify-center text-xl font-bold">5</span>
+                    Machine Learning
+                </h2>
+                <div class="space-y-6">
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Foundations of Machine Learning</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Learning paradigms: supervised, unsupervised, reinforcement; Objective / loss functions; Gradient Descent: batch, stochastic, mini-batch; Overfitting & underfitting; Bias–variance trade-off; Curse of dimensionality; No Free Lunch Theorem; Occam's Razor
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Supervised Learning - Regression</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Linear regression; Logistic regression; Ordinary Least Squares (OLS); Partial Least Squares (PLS); Gradient Boosting Regression; Multivariate Adaptive Regression Splines (MARS); ARIMA (time-series regression context)
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Supervised Learning - Classification</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            k-Nearest Neighbors (k-NN); Naive Bayes; Support Vector Machines (SVM); Kernel methods; Radial Basis Functions (RBFs)
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Statistical & Tree-Based Machine Learning</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Decision Trees; Classification and Regression Trees (CART); ID3; C4.5, C5.0; CHAID; Learning Vector Quantization (LVQ)
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Ensemble Methods</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Bagging; Boosting; AdaBoost; Gradient Boosting (XGBoost, LightGBM); Random Forests; Voting classifiers; Stacking; Blending; Dropout (as ensemble regularization idea)
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Unsupervised Learning - Clustering</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            K-means; Hierarchical clustering; DBSCAN
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Dimensionality Reduction</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Principal Component Analysis (PCA); Linear Discriminant Analysis (LDA); Kernel PCA (KPCA); t-SNE; UMAP
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Model Evaluation & Diagnostics</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Classification metrics: Accuracy; Confusion matrix; Precision; Recall; Specificity; F1-score; ROC-AUC; 
+                            Regression metrics: RMSE, MAE, MAPE; 
+                            Information criteria: AIC; BIC; 
+                            Model diagnostics: Multicollinearity detection - Correlation matrix, Tolerance, Variance Inflation Factor (VIF)
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Model Validation & Hyperparameter Tuning</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Holdout validation; k-fold cross-validation; Resampling methods; Bootstrapping; Learning curves; Validation curves; 
+                            Regularization: Ridge (L2); LASSO (L1); 
+                            Hyperparameter search: Grid search; Randomized search
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Reinforcement Learning</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Markov Decision Processes (MDPs); Reward optimization; Q-learning; Monte Carlo methods; Policy gradients; Deep Q-Networks (DQN); TF-Agents
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Deep Learning & AI Section -->
+            <section class="bg-white rounded-[2rem] p-8 shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-300">
+                <h2 class="text-3xl font-black text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-pink-100 text-pink-600 rounded-xl flex items-center justify-center text-xl font-bold">6</span>
+                    Deep Learning & Artificial Intelligence
+                </h2>
+                <div class="space-y-6">
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Neural Network Fundamentals</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Perceptron; Activation functions; Backpropagation
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Convolutional Neural Networks</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Convolutional Neural Networks (CNNs)
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Recurrent Neural Networks</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Recurrent Neural Networks (RNNs); Elman & Jordan networks; LSTM; GRU; Bidirectional RNNs; Continuous-time RNNs; Hopfield networks; Sequence-to-sequence models
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Generative & Advanced Architectures</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Autoencoders; Variational Autoencoders (VAE); Generative Adversarial Networks (GANs); Deep Boltzmann Machines; Bayesian Neural Networks; Neural Turing Machines; Recursive Neural Networks
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Transformer-Based Models</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Transformers; Attention mechanisms; Transfer learning
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Natural Language Processing (NLP)</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Tokenization; Regular expressions; Stemming; Lemmatization; Word Sense Disambiguation; Pronoun resolution; Machine translation; NLP pipelines
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Computer Vision</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Computer vision pipelines
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- EDA Section -->
+            <section class="bg-white rounded-[2rem] p-8 shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-300">
+                <h2 class="text-3xl font-black text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-cyan-100 text-cyan-600 rounded-xl flex items-center justify-center text-xl font-bold">7</span>
+                    Exploratory Data Analysis (EDA)
+                </h2>
+                <div class="space-y-6">
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Analytical & Business Thinking</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Business acumen; Defining business-focused questions; Asking business-driven questions
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Understanding Data & Distributions</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Studying data distributions; Descriptive analysis; Diagnostic analysis
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Data Analysis Techniques</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Univariate analysis; Multivariate analysis; Statistical summaries
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Analytical Frameworks</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Descriptive analytics; Diagnostic analytics; Predictive analytics; Prescriptive analytics; Cognitive analytics
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Data Visualization</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Visualization principles; matplotlib; seaborn; plotly; bokeh; ggplot2
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Insight Generation & Communication</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Storytelling with data; Writing concise and insightful reports
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Dashboards & Decision Support</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Building dashboards; Presenting insights for decision-making
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Continue with remaining sections... -->
+            <!-- Data Engineering -->
+            <section class="bg-white rounded-[2rem] p-8 shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-300">
+                <h2 class="text-3xl font-black text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-orange-100 text-orange-600 rounded-xl flex items-center justify-center text-xl font-bold">8</span>
+                    Data Engineering
+                </h2>
+                <div class="space-y-6">
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Data Architecture Foundations</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Data lakes; Data warehouses; Lakehouse architecture; Batch processing vs streaming processing
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Data Modeling</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Conceptual, logical, and physical data models; Dimensional modeling; Star schema; Snowflake schema
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Data Storage & Warehousing Technologies</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Cloud data warehouses - Google BigQuery, Amazon Redshift, Snowflake; Storage formats – Parquet, ORC, Avro
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Distributed Data Processing</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Apache Spark; PySpark; Spark SQL
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Streaming & Event-Driven Systems</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Apache Kafka; Apache Flink; Stream processing concepts; Event-time vs processing-time semantics
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Data Orchestration & Workflow Management</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Apache Airflow; Prefect; Dagster; DAG design principles; Scheduling, retries, and failure handling
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Data Quality & Reliability</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Data quality checks; Data validation frameworks - Great Expectations; Monitoring data pipelines; Data observability
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Schema Management & Data Evolution</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Schema evolution; Backward and forward compatibility; Data versioning
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Change Data Capture (CDC)</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            CDC concepts; Log-based CDC; CDC tools and patterns
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Security, Governance & Access Control</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Data access control; Role-based permissions; Data governance fundamentals
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Production Best Practices</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Idempotent pipelines; Fault tolerance; Scalability; Cost optimization
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- MLOps -->
+            <section class="bg-white rounded-[2rem] p-8 shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-300">
+                <h2 class="text-3xl font-black text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-teal-100 text-teal-600 rounded-xl flex items-center justify-center text-xl font-bold">9</span>
+                    MLOps (Production Machine Learning)
+                </h2>
+                <div class="space-y-6">
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Model Lifecycle Management</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            End-to-end model lifecycle – Training, Validation, Deployment, Monitoring, Retraining; Model governance; Reproducibility
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Experiment Tracking & Reproducibility</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Experiment tracking; Metrics, parameters, and artifacts logging; Tools – Mlflow, Weights & Biases
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Model Versioning</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Model versioning; Dataset versioning; Feature versioning
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">CI/CD for Machine Learning</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            CI/CD pipelines for ML; Automated testing of models; Model validation gates; Infrastructure as Code (IaC) basics
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Feature Stores</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Feature stores concepts; Offline vs online feature stores; Feature consistency; Tooling - Feast
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Model Deployment Strategies</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Online (real-time) inference; Batch inference; Deployment patterns -Canary deployments, Blue-green deployments, Shadow deployments
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Model Monitoring & Observability</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Model performance monitoring; Data drift detection; Concept drift detection; Alerting and rollback strategies
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Model Explainability in Production</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Model explainability requirements; Post-hoc explainability; Monitoring explanations over time
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Experimentation in Production</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            A/B testing for models; Online experimentation frameworks
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Reliability, Scalability & Risk Management</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Fault tolerance; Latency vs accuracy trade-offs; Cost optimization; Responsible AI considerations
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Cloud & Infrastructure -->
+            <section class="bg-white rounded-[2rem] p-8 shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-300">
+                <h2 class="text-3xl font-black text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-indigo-100 text-indigo-600 rounded-xl flex items-center justify-center text-xl font-bold">10</span>
+                    Cloud & Infrastructure
+                </h2>
+                <div class="space-y-6">
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Cloud Computing Fundamentals</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            IaaS, PaaS, SaaS; Identity and Access Management (IAM); Cloud networking (VPC/VNet, subnets, routing); Load balancers; Cloud storage (object, block, file storage)
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Cloud Platforms</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            AWS fundamentals; Google Cloud Platform (GCP) fundamentals; Microsoft Azure fundamentals; Compute services; Storage services; Networking services
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Managed Machine Learning Services</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            AWS SageMaker; Google Vertex AI; Azure Machine Learning; Training; Deployment; Experiment tracking; Monitoring
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Serverless Computing</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Serverless architecture concepts; AWS Lambda; Google Cloud Functions; Event-driven computing
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Containerization</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Containers fundamentals; Docker images; Dockerfiles; Container registries
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Container Orchestration</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Kubernetes fundamentals; Pods, services, deployments; Scaling and auto-scaling; Rolling updates and self-healing
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Infrastructure as Code (IaC)</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Infrastructure as Code principles; Terraform; Versioning infrastructure; Environment management (dev / staging / prod)
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Scalability & Reliability Engineering</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Horizontal vs vertical scaling; Auto-scaling strategies; High availability; Fault tolerance
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Cost Optimization & Cloud Economics</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Cost monitoring and budgeting; Resource right-sizing; Spot / preemptible instances; Storage cost optimization
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Security & Compliance</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Cloud security best practices; Network security; Secrets management; Compliance basics
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Big Data & Distributed Systems -->
+            <section class="bg-white rounded-[2rem] p-8 shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-300">
+                <h2 class="text-3xl font-black text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-lime-100 text-lime-600 rounded-xl flex items-center justify-center text-xl font-bold">11</span>
+                    Big Data & Distributed Systems
+                </h2>
+                <div class="space-y-6">
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Foundations of Distributed Systems</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Distributed systems principles; Scalability; Concurrency; Network communication basics
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Distributed File Systems & Storage</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Distributed file systems - Hadoop Distributed File System (HDFS); Data replication; Data locality
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Data Processing Paradigms</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            MapReduce paradigm; Batch processing; Distributed computation models
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Consistency, Availability & Fault Tolerance</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            CAP theorem; Trade-offs between consistency, availability, and partition tolerance; Fault tolerance mechanisms; Replication and recovery
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Distributed Query Engines</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Distributed SQL engines – Presto, Trino; Query planning and optimization
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Data Formats & Storage Optimization</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Columnar storage formats – Parquet, ORC; Compression strategies; Partitioning strategies
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Performance & Scalability Optimization</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Parallelism and data sharding; Resource management; Query performance tuning
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Responsible AI -->
+            <section class="bg-white rounded-[2rem] p-8 shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-300">
+                <h2 class="text-3xl font-black text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-rose-100 text-rose-600 rounded-xl flex items-center justify-center text-xl font-bold">12</span>
+                    Responsible AI, Ethics & Governance
+                </h2>
+                <div class="space-y-6">
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Fairness & Bias</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Sources of bias in data and models; Bias detection techniques; Fairness metrics (e.g., demographic parity, equalized odds, disparate impact); Mitigation strategies for bias
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Explainable & Transparent AI</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Explainable AI (XAI) techniques - SHAP (Shapley Additive Explanations), LIME (Local Interpretable Model-agnostic Explanations); Model transparency; Post-hoc and intrinsic explainability
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Privacy & Security</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Privacy-preserving ML - Differential privacy; Data anonymization and pseudonymization; Consent management; Secure model deployment
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Regulatory Awareness</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            GDPR (General Data Protection Regulation) basics; HIPAA (Health Insurance Portability and Accountability Act) basics; Compliance with industry-specific regulations; Ethical guidelines for AI deployment
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Model Governance & Auditability</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Model lifecycle governance; Model auditability and documentation; Versioning and reproducibility for accountability; Risk assessment and mitigation; Monitoring for unintended consequences
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">AI Risk Management</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Identification of AI operational risks; Assessment of societal and business impacts; Continuous monitoring and intervention strategies
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Visualization & Analytics Engineering -->
+            <section class="bg-white rounded-[2rem] p-8 shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-300">
+                <h2 class="text-3xl font-black text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-amber-100 text-amber-600 rounded-xl flex items-center justify-center text-xl font-bold">13</span>
+                    Visualization & Analytics Engineering
+                </h2>
+                <div class="space-y-6">
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Business Intelligence (BI) Tools</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Tableau; Power BI; Looker; Dashboard creation and management; Interactive visualizations for business stakeholders
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Semantic Layers & Metrics</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Semantic layer concepts; Standardized metrics definitions; Metrics governance; Ensuring consistent KPIs across reports and dashboards
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Analytics Engineering & Data Transformation</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            dbt (data build tool) for modeling, transformations, and version control; SQL best practices for analytics engineering; Modular, reusable, and documented transformations; Data testing and validation
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Self-Serve Analytics</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Enabling business users to explore data independently; Access controls and secure self-service platforms; Templates and pre-built dashboards for non-technical users
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Best Practices in Analytics Engineering</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Version control for analytics projects; Documentation standards for metrics and dashboards; CI/CD for analytics workflows (dbt Cloud / Git integration); Observability and monitoring of analytics pipelines
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Soft Skills -->
+            <section class="bg-white rounded-[2rem] p-8 shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-300">
+                <h2 class="text-3xl font-black text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-violet-100 text-violet-600 rounded-xl flex items-center justify-center text-xl font-bold">14</span>
+                    Soft Skills & Career Skills
+                </h2>
+                <div class="space-y-6">
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Business & Domain Understanding</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Translating business problems into ML / analytics problems; Understanding ROI and business impact of data projects; Industry/domain knowledge for context-aware solutions
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Problem Framing & Solving</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Problem decomposition and structured thinking; Hypothesis generation and validation; Analytical reasoning and critical thinking; Creativity in solutions and approaches
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Communication & Storytelling</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Stakeholder management; Model storytelling for executives and non-technical audiences; Writing clear reports and documentation; Presentation skills
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Leadership & Team Skills</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Leadership and mentorship in projects; Collaboration and teamwork; Managing cross-functional teams; Decision-making and responsibility
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Ethics & Professional Responsibility</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Ethical considerations in data projects; Responsible AI and fairness in ML; Data privacy, governance, and compliance
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Continuous Learning & Growth Mindset</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Curiosity and self-directed learning; Adaptability to new tools, technologies, and domains; Grit and resilience in problem-solving; Lifelong learning habits
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Portfolio & Career Development</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            End-to-end projects (from data acquisition to deployment and monitoring); Open-source contributions; Replicating research papers; Blogging, presentations, and technical writing; Portfolio building for job applications; Technical interview preparation (DS & ML roles); Career path planning and professional growth strategies
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+        <!-- Footer with Back Button -->
+        <div class="mt-20 pt-12 border-t border-slate-100">
+            <a href="index.html" class="inline-flex items-center gap-2 text-indigo-600 font-bold hover:gap-3 transition-all group mb-8">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="group-hover:scale-110 transition-transform">
+                    <line x1="19" y1="12" x2="5" y2="12"/>
+                    <polyline points="12 19 5 12 12 5"/>
+                </svg>
+                Back to Home
+            </a>
+            <p class="text-slate-400 font-medium">
+                Complete Data Science / ML / AI Learning Roadmap
+            </p>
+        </div>
+    </main>
+</body>
+</html>
