@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gocha Ugulava | Data Science & Dev</title>
+    <title>Gocha Ugulava</title>
     <!-- 
         NOTE: This uses Tailwind's Play CDN for simplicity in static deployment.
         For high-traffic production sites, consider building with Tailwind CLI.
@@ -297,7 +297,10 @@
                           </p>
                         </div>
                         <button 
-                          onClick={() => alert('Data Science Roadmap მალე ხელმისაწვდომი იქნება')}
+                          onClick={() => window.open(
+                              'roadmap.html',
+                                'noopener,noreferrer'
+                            )}
                           className="mt-10 bg-indigo-600 text-white w-full py-4 rounded-2xl font-bold hover:bg-indigo-700 transition-all shadow-lg active:scale-95"
                         >
                           გადასვლა
