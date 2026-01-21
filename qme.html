@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantitative Methods in Economics | Complete Learning Path</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Fira Sans Condensed', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Fira Sans Condensed', sans-serif;
+            background-color: #FDFDFF;
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.5s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f5f9;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 5px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+    </style>
+</head>
+<body class="bg-[#FDFDFF]">
+    <!-- Back Button - Top -->
+    <div class="sticky top-0 z-50 bg-white/70 backdrop-blur-xl border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <a href="index.html" class="inline-flex items-center gap-2 text-indigo-600 font-bold hover:gap-3 transition-all group">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="group-hover:scale-110 transition-transform">
+                    <line x1="19" y1="12" x2="5" y2="12"/>
+                    <polyline points="12 19 5 12 12 5"/>
+                </svg>
+                Back to Home
+            </a>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 fade-in">
+        <!-- Header -->
+        <div class="mb-16">
+            <div class="flex items-center gap-4 mb-6">
+                <div class="w-16 h-16 bg-indigo-600 rounded-2xl flex items-center justify-center shadow-xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="20" x2="18" y2="10"/>
+                        <line x1="12" y1="20" x2="12" y2="4"/>
+                        <line x1="6" y1="20" x2="6" y2="14"/>
+                    </svg>
+                </div>
+                <div>
+                    <h1 class="text-5xl sm:text-6xl font-black text-slate-900 tracking-tight">Quantitative Methods in Economics</h1>
+                    <p class="text-xl text-slate-500 mt-2">Statistics & Econometrics - A Complete Learning Path from Foundations to Research Excellence</p>
+                </div>
+            </div>
+            <div class="bg-gradient-to-r from-indigo-600 to-purple-600 h-2 rounded-full w-full"></div>
+        </div>
+
+        <!-- Roadmap Sections -->
+        <div class="space-y-8">
+            <!-- Mathematics Section -->
+            <section class="bg-white rounded-[2rem] p-8 shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-300">
+                <h2 class="text-3xl font-black text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center text-xl font-bold">1</span>
+                    Mathematics
+                </h2>
+                <div class="space-y-6">
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Linear Algebra</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Scalars, vectors, matrices; Square matrices, identity matrix, triangular matrices; Unit vectors; Sparse vs dense matrices; Scalar multiplication; Vector and matrix addition; Matrix multiplication (rules and algorithms); Transpose, conjugate transpose; Symmetric, Hermitian, skew-Hermitian, unitary matrices; Rank, determinant, trace; Matrix inverse; Vector spaces; Basis and dimension; Span; Orthogonality and orthonormality; Linear transformations; Solving systems of linear equations; Gaussian elimination; Gauss–Jordan elimination; LU decomposition; QR decomposition; Eigenvalues and eigenvectors; Diagonalization; Singular Value Decomposition (SVD); Inner and outer products; Quadratic forms; Positive definiteness; Linear least squares
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Calculus (Single & Multivariate)</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Functions of a single variable; Functions of several variables; Limits; Continuity; Derivatives; Partial derivatives; Gradients; Jacobians; Hessians; Minimum and maximum of functions; Optimization intuition; Unconstrained optimization; Constrained optimization; Lagrange multipliers; Taylor series expansion; Step function; Sigmoid function; Logit function; ReLU (Rectified Linear Unit); Softmax; Cost / loss functions
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Optimization Methods</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Objective / cost functions; Error functions; Likelihood functions; Gradient Descent algorithm; Batch Gradient Descent; Stochastic Gradient Descent; Mini-batch Gradient Descent
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Advanced Optimization & Operations Research</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Convex vs non-convex optimization; Linear programming; Integer programming; Constraint optimization; Stochastic optimization; Scheduling problems; Resource allocation; Reinforcement Learning and Operations Research hybrids
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Matrix Calculus</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Vector differentiation; Matrix differentiation; Gradients of quadratic forms; Hessians of quadratic forms; Jacobians of vector-valued functions; Hessians of likelihood functions; Optimization in matrix form
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Numerical Methods</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Numerical optimization; Root-finding methods; Numerical integration; Iterative algorithms; Convergence and stability of numerical methods
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Measure-Theoretic Foundations</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Sigma-algebras; Measure spaces; Probability measures; Measurable functions; Modes of convergence; Almost sure convergence; Convergence in probability; Convergence in distribution
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Probability Theory, Mathematical Statistics & Stochastic Processes Section -->
+            <section class="bg-white rounded-[2rem] p-8 shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-300">
+                <h2 class="text-3xl font-black text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-green-100 text-green-600 rounded-xl flex items-center justify-center text-xl font-bold">2</span>
+                    Probability Theory, Mathematical Statistics & Stochastic Processes
+                </h2>
+                <div class="space-y-6">
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Probability & Distributions</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Axioms of probability; Sample space and events; Conditional probability; Bayes' Theorem; Random variables; Discrete and continuous random variables; Probability mass functions (PMF); Probability density functions (PDF); Cumulative distribution functions (CDF); Mathematical expectation; Variance; Covariance; Moments; Moment generating functions; Law of Large Numbers (LLN); Central Limit Theorem (CLT); Bernoulli distribution; Binomial distribution; Poisson distribution; Normal (Gaussian) distribution; Log-normal distribution; Student's t-distribution; Chi-squared distribution; F-distribution; Joint distributions; Marginal and conditional distributions; Independence
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Mathematical Statistics</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Sampling and populations; Sampling distributions; Point estimation; Interval estimation; Confidence intervals; Method of moments; Maximum Likelihood Estimation (MLE); Properties of estimators (bias, consistency, efficiency); Hypothesis testing; Null and alternative hypotheses; Test statistics; p-values; Likelihood ratio tests; Wald and LM tests; Asymptotic theory; Large-sample properties; Sufficiency and completeness
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Stochastic Processes</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Stochastic processes; Discrete-time and continuous-time processes; Stationarity; Weak and strong stationarity; Ergodicity; Autocovariance and autocorrelation functions; Markov processes; Markov chains; Transition probabilities; Martingales; Poisson process; Brownian motion (Wiener process); Introduction to time-dependent stochastic models
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Statistical Foundations Section -->
+            <section class="bg-white rounded-[2rem] p-8 shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-300">
+                <h2 class="text-3xl font-black text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-purple-100 text-purple-600 rounded-xl flex items-center justify-center text-xl font-bold">3</span>
+                    Statistical Foundations
+                </h2>
+                <div class="space-y-6">
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Descriptive Statistics</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Data types (categorical, ordinal, numerical); Measures of central tendency (mean, median, mode); Measures of dispersion (variance, standard deviation, range, interquartile range); Skewness and kurtosis; Empirical distributions; Frequency tables; Quantiles and percentiles; Covariance and correlation; Outlier detection; Data aggregation and grouping; Visualization basics (histograms, boxplots, scatterplots)
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Inferential Statistics - Sampling & Estimation</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Sampling methods; Sampling distributions; Point estimation; Properties of estimators (unbiasedness, consistency, efficiency); Maximum Likelihood Estimation (MLE); Method of Moments; Confidence intervals
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Inferential Statistics - Hypothesis Testing</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Null and alternative hypotheses; Test statistics; Type I and Type II errors; p-values and significance levels; Power of a test; One- and two-sample tests; t-tests; Z-tests; Chi-square tests; Analysis of Variance (ANOVA)
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Non-Parametric Inference</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Distribution-free methods; Mann–Whitney U test; Wilcoxon signed-rank test; Kruskal–Wallis test; Kolmogorov–Smirnov test; Permutation tests
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <!-- Classical Econometrics Section -->
+            <section class="bg-white rounded-[2rem] p-8 shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-300">
+                <h2 class="text-3xl font-black text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-yellow-100 text-yellow-600 rounded-xl flex items-center justify-center text-xl font-bold">4</span>
+                    Classical Econometrics
+                </h2>
+                <div class="space-y-6">
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Linear Regression (OLS)</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Simple and multiple regression; Interpretation of coefficients; Dummy variables; Interaction terms; Logarithmic and polynomial transformations; Functional form specification; R² and Adjusted R²; F-test for overall significance
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Gauss-Markov Assumptions</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Linearity; Exogeneity (zero conditional mean); Homoscedasticity; No autocorrelation; No perfect multicollinearity; The BLUE property (Best Linear Unbiased Estimator)
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Diagnostics and Model Validation</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Multicollinearity (Variance Inflation Factor, VIF); Heteroscedasticity (Breusch-Pagan, White tests); Robust standard errors; Autocorrelation (Durbin-Watson, Breusch-Godfrey tests); Model specification tests (Ramsey RESET); Residual analysis; Normality of errors (Jarque-Bera test); Influence and leverage points (Cook's distance, Hat matrix)
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Advanced Microeconometrics Section -->
+            <section class="bg-white rounded-[2rem] p-8 shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-300">
+                <h2 class="text-3xl font-black text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-red-100 text-red-600 rounded-xl flex items-center justify-center text-xl font-bold">5</span>
+                    Advanced Microeconometrics
+                </h2>
+                <div class="space-y-6">
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Generalized Least Squares (GLS)</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Weighted Least Squares (WLS) for heteroscedasticity; Feasible GLS (FGLS); GLS assumptions; Efficiency gains over OLS under heteroscedasticity or autocorrelation
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Limited Dependent Variables</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Binary choice models: Logit and Probit; Multinomial Logit and Probit; Ordered choice models; Marginal effects and interpretation of coefficients; Model fit measures (Pseudo-R², likelihood ratio tests)
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Sample Selection & Censoring</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Tobit models (censored regression); Heckman Selection Model (correcting for sample selection bias); Two-step estimation procedures; Identification issues; Sample truncation vs censoring
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Count Data Models</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Poisson regression; Negative Binomial regression; Overdispersion diagnostics; Incidence rate ratios; Interpretation of coefficients in count models; Zero-inflated and hurdle models
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Time Series Analysis Section -->
+            <section class="bg-white rounded-[2rem] p-8 shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-300">
+                <h2 class="text-3xl font-black text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-pink-100 text-pink-600 rounded-xl flex items-center justify-center text-xl font-bold">6</span>
+                    Time Series Analysis
+                </h2>
+                <div class="space-y-6">
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Univariate Time Series Models</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Stationarity; Unit root tests (ADF, KPSS, Phillips-Perron); Autoregressive models (AR); Moving Average models (MA); ARMA models; ARIMA models; Seasonal ARIMA (SARIMA); Model selection (AIC, BIC); Forecasting and prediction intervals; Residual diagnostics (ACF, PACF, Ljung-Box test)
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Volatility Modeling</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Autoregressive Conditional Heteroscedasticity (ARCH); Generalized ARCH (GARCH); Extensions: EGARCH, TGARCH; Volatility clustering; Forecasting conditional variance; Model diagnostics and goodness-of-fit
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Multivariate Time Series Models</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Vector Autoregression (VAR); Impulse Response Functions (IRF); Forecast Error Variance Decomposition (FEVD); Granger causality tests; Cointegration; Vector Error Correction Models (VECM); Johansen cointegration test; Structural VAR (SVAR) models; Dynamic conditional correlations
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Panel Data Analysis Section -->
+            <section class="bg-white rounded-[2rem] p-8 shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-300">
+                <h2 class="text-3xl font-black text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-cyan-100 text-cyan-600 rounded-xl flex items-center justify-center text-xl font-bold">7</span>
+                    Panel Data Analysis
+                </h2>
+                <div class="space-y-6">
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Core Models</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Pooled OLS; Fixed Effects (FE); Random Effects (RE); The Hausman test (FE vs RE); Interpretation of coefficients in panel models; Within and between transformations; Clustered standard errors; Model assumptions and diagnostics
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Advanced Panel Models</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Dynamic Panel Data models; Arellano-Bond estimator (GMM for dynamic panels); System GMM; Difference-in-Sargan tests (overidentification); Instrument selection; Long panels vs. wide panels; Serial correlation and heteroscedasticity corrections; Panel unit root and cointegration tests; Dealing with unbalanced panels
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Psychometrics & Survey Analysis Section -->
+            <section class="bg-white rounded-[2rem] p-8 shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-300">
+                <h2 class="text-3xl font-black text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-orange-100 text-orange-600 rounded-xl flex items-center justify-center text-xl font-bold">8</span>
+                    Psychometrics & Survey Analysis
+                </h2>
+                <div class="space-y-6">
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Measurement Theory & Reliability</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Latent variables vs. observed variables; Classical Test Theory (CTT); Item analysis; Difficulty and discrimination indices; Reliability analysis; Cronbach's Alpha; McDonald's Omega; Inter-rater reliability (Cohen's Kappa); Split-half reliability; Test-retest reliability; Standard Error of Measurement (SEM)
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Validity & Factor Analysis</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Content, construct, and criterion validity; Exploratory Factor Analysis (EFA); Principal Axis Factoring vs. PCA; Rotation methods (Varimax, Oblimin); Factor loadings and communalities; Scree plots and Eigenvalue rules; Confirmatory Factor Analysis (CFA); Model fit indices (RMSEA, CFI, TLI, SRMR); Path diagrams and structural equations
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Item Response Theory (IRT)</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Latent Trait Theory; Item Response Functions (IRF); Local independence assumption; Logistic IRT models (1PL/Rasch, 2PL, 3PL); Differential Item Functioning (DIF); Information functions; Computerized Adaptive Testing (CAT) basics
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Survey Methodology & Sampling Design</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Survey design and scaling (Likert scales, Semantic differentials); Questionnaire bias and framing effects; Complex survey designs: Stratified sampling, Cluster sampling, Multi-stage sampling; Design effects (Deff); Calculation of survey weights (base weights, non-response adjustment, post-stratification/raking); Total Survey Error (TSE) framework
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Game Theory & Strategic Interaction Section -->
+            <section class="bg-white rounded-[2rem] p-8 shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-300">
+                <h2 class="text-3xl font-black text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-teal-100 text-teal-600 rounded-xl flex items-center justify-center text-xl font-bold">9</span>
+                    Game Theory & Strategic Interaction
+                </h2>
+                <div class="space-y-6">
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Foundations of Game Theory</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Basic elements: players, strategies, payoffs; Normal-form games (payoff matrices); Extensive-form games (game trees); Information sets (perfect vs imperfect information); Dominant and dominated strategies; Nash Equilibrium (pure and mixed strategies); Best response functions
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Dynamic & Incomplete Information Games</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Backward induction; Subgame Perfect Nash Equilibrium (SPNE); Repeated games and folk theorems; Bayesian games (incomplete information); Bayesian Nash Equilibrium; Signaling and screening models; Adverse selection and Moral Hazard
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Mechanism Design & Auction Theory</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            The Revelation Principle; Implementation theory; Optimal auction design (Vickrey-Clarke-Groves / VCG mechanism); Matching markets (Gale-Shapley algorithm)
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Spatial Econometrics & GIS Section -->
+            <section class="bg-white rounded-[2rem] p-8 shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-300">
+                <h2 class="text-3xl font-black text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-indigo-100 text-indigo-600 rounded-xl flex items-center justify-center text-xl font-bold">10</span>
+                    Spatial Econometrics & GIS
+                </h2>
+                <div class="space-y-6">
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Foundations of Spatial Data</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Geospatial data types: Raster vs Vector; Coordinate Reference Systems (CRS) and projections; Spatial joins and buffering; Spatial weights matrices: Contiguity-based (Queen, Rook), distance-based, and k-nearest neighbors; Spatial autocorrelation: Global and Local Moran's I; Geary's C; LISA (Local Indicators of Spatial Association)
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Spatial Econometric Models</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Spatial Lag Model (SAR); Spatial Error Model (SEM); Spatial Durbin Model (SDM); Maximum Likelihood Estimation (MLE) for spatial models; Quasi-Maximum Likelihood (QMLE); Instrumental Variables in spatial contexts; Spatial panel data models: Fixed and Random Effects with spatial dependence
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Causal Inference Section -->
+            <section class="bg-white rounded-[2rem] p-8 shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-300">
+                <h2 class="text-3xl font-black text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-lime-100 text-lime-600 rounded-xl flex items-center justify-center text-xl font-bold">11</span>
+                    Causal Inference
+                </h2>
+                <div class="space-y-6">
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Frameworks</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Potential Outcomes Framework (Rubin Causal Model); Directed Acyclic Graphs (DAGs) for causal identification; The problem of endogeneity; Confounding and selection bias; Counterfactual reasoning; Identification assumptions (Ignorability, Conditional Independence)
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Quasi-Experimental Methods</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Instrumental Variables (IV / 2SLS); Local Average Treatment Effect (LATE); Difference-in-Differences (DiD); Regression Discontinuity Design (RDD); Fuzzy and sharp RDD; Synthetic Control Methods; Propensity Score Matching (PSM); Balancing and overlap diagnostics; Robustness checks
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Complementary Topics</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Causal mediation analysis; Sensitivity analysis; External validity considerations; Heterogeneous treatment effects; Limitations of observational data for causal inference
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Econometrics & Machine Learning Section -->
+            <section class="bg-white rounded-[2rem] p-8 shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-300">
+                <h2 class="text-3xl font-black text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-rose-100 text-rose-600 rounded-xl flex items-center justify-center text-xl font-bold">12</span>
+                    Econometrics & Machine Learning
+                </h2>
+                <div class="space-y-6">
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">High-Dimensional Inference</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Regularization methods: Lasso, Ridge, Elastic Net; Variable selection in OLS; Shrinkage estimators; Handling multicollinearity in high-dimensional data; Bias-variance tradeoff; Sparse vs dense models
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Causal Machine Learning</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Double Machine Learning (DML) for nuisance parameter removal; Causal Forests for Heterogeneous Treatment Effects (HTE); Targeted Maximum Likelihood Estimation (TMLE); Model-assisted causal inference; Interpretation of heterogeneous treatment effects; Feature selection for causal models
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Validation & Model Assessment</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Cross-validation in structural and causal models; Training/testing splits for predictive vs causal performance; Overfitting and underfitting diagnostics; Robustness checks; Sensitivity analysis; Out-of-sample prediction accuracy; Model interpretability (SHAP, LIME)
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Bayesian Econometrics Section -->
+            <section class="bg-white rounded-[2rem] p-8 shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-300">
+                <h2 class="text-3xl font-black text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-amber-100 text-amber-600 rounded-xl flex items-center justify-center text-xl font-bold">13</span>
+                    Bayesian Econometrics
+                </h2>
+                <div class="space-y-6">
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Bayesian Inference</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Prior and posterior distributions; Conjugate priors; Bayesian updating; Credible intervals; Posterior predictive checks; Bayesian hypothesis testing; Hierarchical modeling concepts
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Computational Methods</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Markov Chain Monte Carlo (MCMC); Gibbs Sampling; Metropolis-Hastings algorithm; Hamiltonian Monte Carlo; Bayesian VAR models; Hierarchical and multilevel models; Posterior simulation diagnostics; Model selection and comparison (Bayes factors, DIC, WAIC)
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Big Data & Scalable Analytics Section -->
+            <section class="bg-white rounded-[2rem] p-8 shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-300">
+                <h2 class="text-3xl font-black text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-violet-100 text-violet-600 rounded-xl flex items-center justify-center text-xl font-bold">14</span>
+                    Big Data & Scalable Analytics
+                </h2>
+                <div class="space-y-6">
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Computational Statistics</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Bootstrap and resampling methods; Jackknife; Permutation tests; Monte Carlo simulations; Estimating standard errors and confidence intervals for complex estimators; Parallel computation for simulation-based inference
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Big Data Challenges</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Statistical significance in massive samples (p-value saturation); High-dimensional data issues; Bias-variance considerations; Distributed computing frameworks for econometrics (Apache Spark, Hadoop, high-performance clusters); Memory-efficient algorithms; Approximate inference methods; Scalable regression and ML models
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Research Standards & Reproducibility Section -->
+            <section class="bg-white rounded-[2rem] p-8 shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-300">
+                <h2 class="text-3xl font-black text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-emerald-100 text-emerald-600 rounded-xl flex items-center justify-center text-xl font-bold">15</span>
+                    Research Standards & Reproducibility
+                </h2>
+                <div class="space-y-6">
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Identification Strategy</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Explicit source of exogenous variation; Internal vs. external validity; Pre-Analysis Plans (PAP); Causal identification assumptions; Clear definition of treatment and control groups; Avoiding specification search and researcher degrees of freedom
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Robustness Checks</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Placebo tests (fake treatments/dates); Sensitivity analysis; Leave-one-out diagnostics; Alternative model specifications; Subsample analyses; Robust standard errors and clustered inference; Model stability assessment
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Scientific Workflow & Reproducible Research</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Reproducible computing environments (Docker, Conda); Version control (Git); Pipeline automation (Snakemake, DVC); Dynamic reproducible reporting (Quarto, RMarkdown, Jupyter Notebooks); Automated documentation of datasets and code; Data provenance tracking
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Ethics & Transparency</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Multiple hypothesis testing corrections (Bonferroni, False Discovery Rate, FDR); Anti-p-hacking protocols; Data anonymization and privacy compliance; Open data and code sharing; Ethical reporting standards; Reproducibility checks prior to submission
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Tools, Software, Libraries & Modules Section -->
+            <section class="bg-white rounded-[2rem] p-8 shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-300">
+                <h2 class="text-3xl font-black text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-sky-100 text-sky-600 rounded-xl flex items-center justify-center text-xl font-bold">16</span>
+                    Tools, Software, Libraries & Modules
+                </h2>
+                <div class="space-y-6">
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Programming Languages</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Python (core syntax, data types, functions, OOP, functional programming, error handling); R (syntax, vectors, data frames, statistical functions, ggplot2); MATLAB / Octave (matrix operations, modeling, simulation, numerical computation); SQL (data querying, joins, subqueries, window functions); Bash / CLI scripting
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Data Handling & Manipulation</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Pandas (DataFrames, series, indexing, grouping, merging, pivoting); NumPy (arrays, linear algebra, broadcasting); SciPy (scientific computing, optimization, statistics); data.table in R (fast table manipulation); dplyr / tidyr (data manipulation in R); HDF5 / Feather / Parquet (efficient data storage); Openpyxl / xlrd (Excel I/O); CSV / JSON / XML parsing; Apache Arrow (columnar in-memory format)
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Databases & Big Data Tools</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            SQL Databases (PostgreSQL, MySQL, SQLite, MS SQL Server); NoSQL Databases (MongoDB, Cassandra, Redis); Data warehouses (BigQuery, Snowflake, Redshift); Data lakes (S3, Delta Lake, Lakehouse architecture); Distributed computing frameworks (Apache Spark, PySpark, Dask); Streaming & messaging (Kafka, Flink); ETL orchestration (Airflow, Prefect, Dagster); Data quality frameworks (Great Expectations); Schema evolution & data versioning; CDC (Change Data Capture)
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Data Visualization & Dashboards</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Matplotlib (plots, subplots, histograms, scatterplots); Seaborn (statistical visualization); Plotly (interactive plots); Bokeh (web-ready interactive visualization); ggplot2 (R visualization); Tableau (BI dashboards); Power BI (self-service analytics); Looker (business intelligence); Dash / Streamlit (Python dashboards); Plotly Express; Altair; Interactive visualization design principles; Dashboard metrics governance
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Statistical & Econometric Packages</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Statsmodels (OLS, GLS, ARIMA, statistical tests); Scikit-learn (regression, classification, preprocessing, cross-validation); R base stats; car package in R (regression diagnostics); plm (panel data in R); lme4 (mixed-effects models); tseries, forecast, vars (time series in R); Econometrics toolboxes in MATLAB; Bayesian inference packages (PyMC, Stan, rstanarm, brms); Causal ML libraries (EconML, DoWhy, causalml); ARIMA / SARIMA / GARCH modeling
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Specialized Software for Survey Analysis</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            R packages: psych (EFA/Reliability), lavaan (CFA/SEM), survey (Complex samples), mirt (IRT); Python libraries: FactorAnalyzer, PySEM, Statsmodels (Survey modules); Commercial tools: Mplus, LISREL, Stata (svy prefix)
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">GIS & Geospatial Software</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Python ecosystem: GeoPandas, PySAL (spatial analysis), Shapely, Fiona, Rasterio; R ecosystem: sf (simple features), spdep (spatial weights), spatialreg; Visualizing spatial data: Choropleth maps, heatmaps, and interactive web maps (Folium, Leaflet)
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Machine Learning & Deep Learning</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Scikit-learn (classification, regression, clustering, preprocessing, pipelines); XGBoost, LightGBM, CatBoost (gradient boosting); TensorFlow (NN, deep learning, custom models); Keras (high-level neural network API); PyTorch (dynamic computation graphs, deep learning); FastAI (high-level ML abstractions); H2O.ai (automated ML); Reinforcement Learning (TF-Agents, Stable Baselines3); MLflow / Weights & Biases (experiment tracking); Feature stores (Feast); Hyperparameter tuning (GridSearchCV, RandomizedSearchCV, Optuna)
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Bayesian Computation & MCMC</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            PyMC; Stan / CmdStanPy; rstan / brms; JAGS; Gibbs Sampling; Metropolis-Hastings; Hamiltonian Monte Carlo; Bayesian VARs; Hierarchical / multilevel models; Posterior predictive checks; Convergence diagnostics (R-hat, traceplots)
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Optimization & Numerical Methods</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            SciPy optimize (minimize, root-finding); CVXPY (convex optimization); Pyomo (linear, integer, stochastic programming); Gurobi / CPLEX (commercial solvers); Numpy linear algebra (SVD, eigenvalues, matrix inverse); Gradient descent implementations; Stochastic optimization methods; Reinforcement learning optimization routines
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Parallel & High-Performance Computing</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Multiprocessing and threading in Python; Joblib (parallel computation); Dask (distributed computation); CUDA / CuPy (GPU arrays); TensorFlow / PyTorch GPU acceleration; HPC clusters; Slurm / PBS for job scheduling; Vectorized computations in NumPy / MATLAB
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Reproducibility & Workflow Tools</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Version control (Git, GitHub/GitLab/Bitbucket); Environment management (Conda, virtualenv, renv for R); Docker / containerization; Snakemake / Make / DVC (pipeline automation); Jupyter Notebooks / JupyterLab; RMarkdown / Quarto; Dynamic reporting; Notebook reproducibility practices; Unit testing (pytest, testthat); Documentation generation (Sphinx, roxygen2)
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Text Processing & NLP</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            NLTK; SpaCy; Gensim; Transformers (HuggingFace); Regular expressions (regex); Tokenization, lemmatization, stemming; Word embeddings; Text vectorization (TF-IDF, CountVectorizer); Sentiment analysis pipelines; Machine translation; Named entity recognition
+                        </p>
+                    </div>
+
+                    <div class="pl-14">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Miscellaneous / Utilities</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            OpenCV (image processing); NetworkX (graph analytics); SymPy (symbolic computation); Faker (synthetic data generation); Logging; Profiling and benchmarking; Data serialization (pickle, joblib); API clients (REST/GraphQL); Excel automation (openpyxl, xlwings); PDF / Word processing (PyPDF2, python-docx)
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+        <!-- Footer with Back Button -->
+        <div class="mt-20 pt-12 border-t border-slate-100">
+            <a href="index.html" class="inline-flex items-center gap-2 text-indigo-600 font-bold hover:gap-3 transition-all group mb-8">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="group-hover:scale-110 transition-transform">
+                    <line x1="19" y1="12" x2="5" y2="12"/>
+                    <polyline points="12 19 5 12 12 5"/>
+                </svg>
+                Back to Home
+            </a>
+            <p class="text-slate-400 font-medium">
+                Complete Quantitative Methods in Economics Learning Roadmap
+            </p>
+        </div>
+    </main>
+</body>
+</html>
