@@ -1,0 +1,1338 @@
+[
+  {
+    "law_name": "Murphy's First Law",
+    "law": "Nothing is as easy as it looks."
+  },
+  {
+    "law_name": "Murphy's Second Law",
+    "law": "Everything takes longer than you think."
+  },
+  {
+    "law_name": "Murphy's Third Law",
+    "law": "Anything that can go wrong will go wrong."
+  },
+  {
+    "law_name": "Murphy's Fourth Law",
+    "law": "If there is a possibility of several things going wrong, the one that will cause the most damage will be the one to go wrong."
+  },
+  {
+    "law_name": "Murphy's Fourth Law - Corollary",
+    "law": "If there is a worse time for something to go wrong, it will happen then."
+  },
+  {
+    "law_name": "Murphy's Fifth Law",
+    "law": "If anything simply cannot go wrong, it will anyway."
+  },
+  {
+    "law_name": "Murphy's Sixth Law",
+    "law": "If you perceive that there are four possible ways in which a procedure can go wrong, and circumvent these, then a fifth way, unprepared for, will promptly develop."
+  },
+  {
+    "law_name": "Murphy's Seventh Law",
+    "law": "Left to themselves, things tend to go from bad to worse."
+  },
+  {
+    "law_name": "Murphy's Eighth Law",
+    "law": "If everything seems to be going well, you have obviously overlooked something."
+  },
+  {
+    "law_name": "Murphy's Ninth Law",
+    "law": "Nature always sides with the hidden flaw."
+  },
+  {
+    "law_name": "Murphy's Tenth Law",
+    "law": "Mother nature is a bitch."
+  },
+  {
+    "law_name": "Murphy's Eleventh Law",
+    "law": "It is impossible to make anything foolproof because fools are so ingenious."
+  },
+  {
+    "law_name": "Murphy's Twelfth Law",
+    "law": "Whenever you set out to do something, something else must be done first."
+  },
+  {
+    "law_name": "Murphy's Thirteenth Law",
+    "law": "Every solution breeds new problems."
+  },
+  {
+    "law_name": "Murphy's Law of Research",
+    "law": "Enough research will tend to support your theory."
+  },
+  {
+    "law_name": "Murphy's Law of Copiers",
+    "law": "The legibility of a copy is inversely proportional to its importance."
+  },
+  {
+    "law_name": "Murphy's Law of the Open Road",
+    "law": "When there is a very long road upon which there is a one-way bridge placed at random, and there are only two cars on that road, the two cars are going in opposite directions, and they will always meet at the bridge."
+  },
+  {
+    "law_name": "Murphy's Law of Thermodynamics",
+    "law": "Things get worse under pressure."
+  },
+  {
+    "law_name": "The Murphy Philosophy",
+    "law": "Smile . . . tomorrow will be worse."
+  },
+  {
+    "law_name": "Quantization Revision of Murphy's Laws",
+    "law": "Everything goes wrong all at once."
+  },
+  {
+    "law_name": "Murphy's Constant",
+    "law": "Matter will be damaged in direct proportion to its value."
+  },
+  {
+    "law_name": "Law of the Perversity of Nature (Mrs. Murphy's Corollary)",
+    "law": "You cannot successfully determine beforehand which side of the bread to butter."
+  },
+  {
+    "law_name": "Jenning's Corollary",
+    "law": "The chance of the bread falling with the buttered side down is directly proportional to the cost of the carpet."
+  },
+  {
+    "law_name": "O'Toole's Commentary",
+    "law": "Murphy was an optimist."
+  },
+  {
+    "law_name": "NBC's Addendum to Murphy's Law",
+    "law": "You never run out of things that can go wrong."
+  },
+  {
+    "law_name": "Abbott's First Admonition",
+    "law": "If you have to ask, you're not entitled to know."
+  },
+  {
+    "law_name": "Abbott's Second Admonition",
+    "law": "If you don't like the answer, you shouldn't have asked the question."
+  },
+  {
+    "law_name": "Abrams's Advice",
+    "law": "When eating an elephant, take one bite at a time."
+  },
+  {
+    "law_name": "Rule of Accuracy",
+    "law": "When working toward the solution of a problem, it always helps if you know the answer."
+  },
+  {
+    "law_name": "Acheson's Rule of the Bureaucracy",
+    "law": "A memorandum is written not to inform the reader but to protect the writer."
+  },
+  {
+    "law_name": "Acton's Law",
+    "law": "Power tends to corrupt; absolute power corrupts absolutely."
+  },
+  {
+    "law_name": "Airplane Law",
+    "law": "When the plane you are on is late, the plane you want to transfer to is on time."
+  },
+  {
+    "law_name": "Allen's Axiom",
+    "law": "When all else fails, follow instructions."
+  },
+  {
+    "law_name": "Anthony's Law of Force",
+    "law": "Don't force it, get a larger hammer."
+  },
+  {
+    "law_name": "Anthony's Law of the Workshop",
+    "law": "Any tool, when dropped, will roll into the least accessible corner of the workshop."
+  },
+  {
+    "law_name": "Babcock's Law",
+    "law": "If it can be borrowed and it can be broken, you will borrow it and you will break it."
+  },
+  {
+    "law_name": "Baker's Law",
+    "law": "Misery no longer loves company. Nowadays it insists on it."
+  },
+  {
+    "law_name": "Baruch's Rule for Determining Old Age",
+    "law": "Old age is always fifteen years older than I am."
+  },
+  {
+    "law_name": "Benchley's Law",
+    "law": "Anyone can do any amount of work, provided it isn't the work he is supposed to be doing at that moment."
+  },
+  {
+    "law_name": "Berra's Law",
+    "law": "You can observe a lot just by watching."
+  },
+  {
+    "law_name": "Bicycle Law",
+    "law": "All bicycles weigh 50 pounds."
+  },
+  {
+    "law_name": "First Law of Bicycling",
+    "law": "No matter which way you ride it's uphill and against the wind."
+  },
+  {
+    "law_name": "Bok's Law",
+    "law": "If you think education is expensive -- try ignorance."
+  },
+  {
+    "law_name": "Boob's Law",
+    "law": "You always find something the last place you look."
+  },
+  {
+    "law_name": "Boren's First Law of the Bureaucracy",
+    "law": "When in doubt, mumble."
+  },
+  {
+    "law_name": "Boren's Second Law of the Bureaucracy",
+    "law": "When in trouble, delegate."
+  },
+  {
+    "law_name": "Boren's Third Law of the Bureaucracy",
+    "law": "When in charge, ponder."
+  },
+  {
+    "law_name": "Brooks's Law",
+    "law": "Adding manpower to a late software project makes it later."
+  },
+  {
+    "law_name": "Bucy's Law",
+    "law": "Nothing is ever accomplished by a reasonable man."
+  },
+  {
+    "law_name": "Cahn's Axiom",
+    "law": "When all else fails, read the instructions."
+  },
+  {
+    "law_name": "Cannon's Comment",
+    "law": "If you tell the boss you were late for work because you had a flat tire, the next morning you will have a flat tire."
+  },
+  {
+    "law_name": "Carson's Law",
+    "law": "It's better to be rich and healthy than poor and sick."
+  },
+  {
+    "law_name": "Cheops's Law",
+    "law": "Nothing ever gets built on schedule or within budget."
+  },
+  {
+    "law_name": "Chisholm's Second Law",
+    "law": "When things are going well, something will go wrong."
+  },
+  {
+    "law_name": "Churchill's Commentary on Man",
+    "law": "Man will occasionally stumble over the truth, but most of the time he will pick himself up and continue on as though nothing has happened."
+  },
+  {
+    "law_name": "Clarke's First Law",
+    "law": "When a distinguished but elderly scientist states that something is possible, he is almost certainly right. When he states that something is impossible, he is very probably wrong."
+  },
+  {
+    "law_name": "Clarke's Third Law",
+    "law": "Any sufficiently advanced technology is indistinguishable from magic."
+  },
+  {
+    "law_name": "Cohen's Law",
+    "law": "What really matters is the name you succeed in imposing on the facts -- not the facts themselves."
+  },
+  {
+    "law_name": "Cole's Law",
+    "law": "Thinly sliced cabbage."
+  },
+  {
+    "law_name": "Comins's Law",
+    "law": "People will accept your idea much more readily if you tell them Benjamin Franklin said it first."
+  },
+  {
+    "law_name": "Commoner's Law of Ecology",
+    "law": "There is no free lunch."
+  },
+  {
+    "law_name": "Conway's Second Law",
+    "law": "In every organization there will always be one person who knows what is going on. This person must be fired."
+  },
+  {
+    "law_name": "Darwin's Observation",
+    "law": "Nature will tell you a direct lie if she can."
+  },
+  {
+    "law_name": "Deadlock's Law",
+    "law": "If the law-makers make a compromise, the place where it will be felt most is the taxpayer's pocket."
+  },
+  {
+    "law_name": "First Law of Debate",
+    "law": "Never argue with a fool. People might not know the difference."
+  },
+  {
+    "law_name": "Dieter's Law",
+    "law": "Food that tastes the best has the highest number of calories."
+  },
+  {
+    "law_name": "Dirksen's Third Law of Politics",
+    "law": "Don't get mad -- get even."
+  },
+  {
+    "law_name": "Ehrman's Commentary",
+    "law": "Things will get worse before they will get better. Who said things would get better?"
+  },
+  {
+    "law_name": "Epstein's Law",
+    "law": "If you think the problem is bad now, just wait until we've solved it."
+  },
+  {
+    "law_name": "Ettorre's Observation",
+    "law": "The other line moves faster."
+  },
+  {
+    "law_name": "Evans's Law",
+    "law": "Nothing worth a damn is ever done as a matter of principle."
+  },
+  {
+    "law_name": "First Law of Expert Advice",
+    "law": "Don't ask the barber whether you need a haircut."
+  },
+  {
+    "law_name": "Falkland's Rule",
+    "law": "When it is not necessary to make a decision, it is necessary not to make a decision."
+  },
+  {
+    "law_name": "Finagle's First Law",
+    "law": "If an experiment works, something has gone wrong."
+  },
+  {
+    "law_name": "Finagle's Fourth Law",
+    "law": "Once a job is fouled up, anything done to improve it only makes it worse."
+  },
+  {
+    "law_name": "Fishbein's Conclusion",
+    "law": "The tire is only flat on the bottom."
+  },
+  {
+    "law_name": "Fitz-Gibbon's Law",
+    "law": "Creativity varies inversely with the number of cooks involved with the broth."
+  },
+  {
+    "law_name": "Franklin's Rule",
+    "law": "Blessed is he who expects nothing, for he shall not be disappointed."
+  },
+  {
+    "law_name": "Freeman's Law",
+    "law": "Nothing is so simple it cannot be misunderstood."
+  },
+  {
+    "law_name": "Fudd's First Law of Opposition",
+    "law": "If you push something hard enough, it will fall over."
+  },
+  {
+    "law_name": "Galbraith's Law of Political Wisdom",
+    "law": "Anyone who says he isn't going to resign, four times, definitely will."
+  },
+  {
+    "law_name": "Gell-Mann's Dictum",
+    "law": "Whatever isn't forbidden is required."
+  },
+  {
+    "law_name": "Law of Generalizations",
+    "law": "All generalizations are false."
+  },
+  {
+    "law_name": "Getty's Reminder",
+    "law": "The meek shall inherit the earth, but NOT its mineral rights."
+  },
+  {
+    "law_name": "Ginsberg's First Theorem",
+    "law": "You can't win."
+  },
+  {
+    "law_name": "Ginsberg's Second Theorem",
+    "law": "You can't break even."
+  },
+  {
+    "law_name": "Ginsberg's Third Theorem",
+    "law": "You can't even quit the game."
+  },
+  {
+    "law_name": "Godin's Law",
+    "law": "Generalizedness of incompetence is directly proportional to highestness in hierarchy."
+  },
+  {
+    "law_name": "Golden Principle",
+    "law": "Nothing will be attempted if all possible objections must first be overcome."
+  },
+  {
+    "law_name": "Goldwyn's Law of Contracts",
+    "law": "A verbal contract isn't worth the paper it's written on."
+  },
+  {
+    "law_name": "Gresham's Law",
+    "law": "Trivial matters are handled promptly; important matters are never resolved."
+  },
+  {
+    "law_name": "Gumperson's Law",
+    "law": "The probability of anything happening is in inverse ratio to its desirability."
+  },
+  {
+    "law_name": "Hacker's Law",
+    "law": "The belief that enhanced understanding will necessarily stir a nation or an organization to action is one of mankind's oldest illusions."
+  },
+  {
+    "law_name": "Haldane's Law",
+    "law": "The Universe is not only queerer than we imagine, it is queerer than we CAN imagine."
+  },
+  {
+    "law_name": "Harden's Law",
+    "law": "Every time you come up with a terrific idea, you find that someone else thought of it first."
+  },
+  {
+    "law_name": "Hardin's Law",
+    "law": "You can never do merely one thing."
+  },
+  {
+    "law_name": "Harris's Lament",
+    "law": "All the good ones are taken."
+  },
+  {
+    "law_name": "Harrison's Postulate",
+    "law": "For every action, there is an equal and opposite criticism."
+  },
+  {
+    "law_name": "Hartley's Second Law",
+    "law": "Never go to bed with anybody crazier than you are."
+  },
+  {
+    "law_name": "Harvard Law",
+    "law": "Under the most rigorously controlled conditions of pressure, temperature, volume, humidity, and other variables, any experimental organism will do as it damn well pleases."
+  },
+  {
+    "law_name": "Hein's Law",
+    "law": "Problems worthy of attack prove their worth by hitting back."
+  },
+  {
+    "law_name": "Heller's First Myth of Management",
+    "law": "The first myth of management is that it exists."
+  },
+  {
+    "law_name": "Hendrickson's Law",
+    "law": "If a problem causes many meetings, the meetings eventually become more important than the problem."
+  },
+  {
+    "law_name": "Herblock's Law",
+    "law": "If it's good, they'll stop making it."
+  },
+  {
+    "law_name": "Historian's Rule",
+    "law": "Any event, once it has occurred, can be made to appear inevitable by a competent historian."
+  },
+  {
+    "law_name": "Hoare's Law of Large Programs",
+    "law": "Inside every large program is a small program struggling to get out."
+  },
+  {
+    "law_name": "Horowitz's Rule",
+    "law": "A computer makes as many mistakes in two seconds as 20 men working 20 years."
+  },
+  {
+    "law_name": "Howe's Law",
+    "law": "Every man has a scheme that will not work."
+  },
+  {
+    "law_name": "IBM Pollyanna Principle",
+    "law": "Machines should work. People should think."
+  },
+  {
+    "law_name": "The Ike Tautology",
+    "law": "Things are more like they are now than they have ever been before."
+  },
+  {
+    "law_name": "Imhoff's Law",
+    "law": "The organization of any bureaucracy is very much like a septic tank -- the REALLY big chunks always rise to the top."
+  },
+  {
+    "law_name": "Law of the Individual",
+    "law": "Nobody really cares or understands what anyone else is doing."
+  },
+  {
+    "law_name": "Iron Law of Distribution",
+    "law": "Them what has -- gets."
+  },
+  {
+    "law_name": "Jake's Law",
+    "law": "Anything hit with a big enough hammer will fall apart."
+  },
+  {
+    "law_name": "Jenkinson's Law",
+    "law": "It won't work."
+  },
+  {
+    "law_name": "John's Axiom",
+    "law": "When your opponent is down, kick him."
+  },
+  {
+    "law_name": "Johnson's First Law",
+    "law": "When any mechanical contrivance fails, it will do so at the most inconvenient possible time."
+  },
+  {
+    "law_name": "Johnson's First Law of Auto Repair",
+    "law": "Any tool dropped while repairing an automobile will roll under the car to the vehicle's exact geographic center."
+  },
+  {
+    "law_name": "Jones's Law",
+    "law": "The man who can smile when things go wrong has thought of someone he can blame it on."
+  },
+  {
+    "law_name": "Jones's Motto",
+    "law": "Friends may come and go, but enemies accumulate."
+  },
+  {
+    "law_name": "Kafka's Law",
+    "law": "In the fight between you and the world, back the world."
+  },
+  {
+    "law_name": "Kaplan's Law of the Instrument",
+    "law": "Give a small boy a hammer and he will find that everything he encounters needs pounding."
+  },
+  {
+    "law_name": "Katz's Law",
+    "law": "Men and nations will act rationally when all other possibilities have been exhausted."
+  },
+  {
+    "law_name": "Kennedy's Law",
+    "law": "Excessive official restraints on information are inevitably self-defeating and productive of headaches for the officials concerned."
+  },
+  {
+    "law_name": "Knight's Law",
+    "law": "Life is what happens to you while you are making other plans."
+  },
+  {
+    "law_name": "Kohn's Second Law",
+    "law": "Any experiment is reproducible until another laboratory tries to repeat it."
+  },
+  {
+    "law_name": "Koppett's Law",
+    "law": "Whatever creates the greatest inconvenience for the largest number must happen."
+  },
+  {
+    "law_name": "Labor Law",
+    "law": "A disagreeable law is its own reward."
+  },
+  {
+    "law_name": "First Law of Laboratory Work",
+    "law": "Hot glass looks exactly the same as cold glass."
+  },
+  {
+    "law_name": "La Rochefoucauld's Law",
+    "law": "It is more shameful to distrust one's friends than to be deceived by them."
+  },
+  {
+    "law_name": "Laura's Law",
+    "law": "No child throws up in the bathroom."
+  },
+  {
+    "law_name": "Lawyer's Rule",
+    "law": "When the law is against you, argue the facts. When the facts are against you, argue the law. When both are against you, call the other lawyer names."
+  },
+  {
+    "law_name": "Leahy's Law",
+    "law": "If a thing is done wrong often enough, it becomes right."
+  },
+  {
+    "law_name": "Lenin's Law",
+    "law": "Whenever the cause of the people is entrusted to professors, it is lost."
+  },
+  {
+    "law_name": "Liebling's Law",
+    "law": "If you just try long enough and hard enough, you can always manage to boot yourself in the posterior."
+  },
+  {
+    "law_name": "Lowrey's Law",
+    "law": "If it jams, force it. If it breaks, it needed replacing anyway."
+  },
+  {
+    "law_name": "Lubarsky's Law of Cybernetic Entomology",
+    "law": "There's always one more bug."
+  },
+  {
+    "law_name": "Luce's Law",
+    "law": "No good deed goes unpunished."
+  },
+  {
+    "law_name": "Lynch's Law",
+    "law": "When the going gets tough, everybody leaves."
+  },
+  {
+    "law_name": "Maier's Law",
+    "law": "If the facts do not conform to the theory, they must be disposed of."
+  },
+  {
+    "law_name": "Malek's Law",
+    "law": "Any simple idea will be worded in the most complicated way."
+  },
+  {
+    "law_name": "Manly's Maxim",
+    "law": "Logic is a systematic method of coming to the wrong conclusion with confidence."
+  },
+  {
+    "law_name": "Marshall's Generalized Iceberg Theorem",
+    "law": "Seven-eighths of everything can't be seen."
+  },
+  {
+    "law_name": "Matsch's Law",
+    "law": "It is better to have a horrible ending than to have horrors without end."
+  },
+  {
+    "law_name": "Maugham's Thought",
+    "law": "Only a mediocre person is always at his best."
+  },
+  {
+    "law_name": "McCarthy's Law",
+    "law": "Being in politics is like being a football coach. You have to be smart enough to understand the game and dumb enough to think it's important."
+  },
+  {
+    "law_name": "McGovern's Law",
+    "law": "The longer the title, the less important the job."
+  },
+  {
+    "law_name": "H. L. Mencken's Law",
+    "law": "Those who can -- do. Those who cannot -- teach. Those who cannot teach -- administrate."
+  },
+  {
+    "law_name": "Mencken's Metalaw",
+    "law": "For every human problem, there is a neat, simple solution; and it is always wrong."
+  },
+  {
+    "law_name": "Michehl's Theorem",
+    "law": "Less is more."
+  },
+  {
+    "law_name": "Miller's Law",
+    "law": "You can't tell how deep a puddle is until you step into it."
+  },
+  {
+    "law_name": "MIST Law",
+    "law": "The number of people watching you is directly proportional to the stupidity of your action."
+  },
+  {
+    "law_name": "Montagu's Maxim",
+    "law": "The idea is to die young as late as possible."
+  },
+  {
+    "law_name": "Morton's Law",
+    "law": "If rats are experimented upon, they will develop cancer."
+  },
+  {
+    "law_name": "Murchison's Law of Money",
+    "law": "Money is like manure. If you spread it around, it does a lot of good. But if you pile it up in one place, it stinks like hell."
+  },
+  {
+    "law_name": "Navy Law",
+    "law": "If you can keep your head when all about you others are losing theirs, maybe you just don't understand the situation."
+  },
+  {
+    "law_name": "Newman's Law",
+    "law": "Hypocrisy is the Vaseline of social intercourse."
+  },
+  {
+    "law_name": "Newton's Little-known Seventh Law",
+    "law": "A bird in the hand is safer than one overhead."
+  },
+  {
+    "law_name": "Ninety-ninety Rule of Project Schedules",
+    "law": "The first ninety percent of the task takes ninety percent of the time, and the last ten percent takes the other ninety percent."
+  },
+  {
+    "law_name": "Nixon's Rule",
+    "law": "If two wrongs don't make a right, try three."
+  },
+  {
+    "law_name": "O'Brien's Rule",
+    "law": "Nothing is ever done for the right reason."
+  },
+  {
+    "law_name": "Occam's Razor",
+    "law": "Entities ought not to be multiplied except from necessity."
+  },
+  {
+    "law_name": "Old Children's Law",
+    "law": "If it tastes good, you can't have it. If it tastes awful, you'd better clean your plate."
+  },
+  {
+    "law_name": "Oppenheimer's Observation",
+    "law": "The optimist thinks this is the best of all possible worlds, and the pessimist knows it."
+  },
+  {
+    "law_name": "Orion's Law",
+    "law": "Everything breaks down."
+  },
+  {
+    "law_name": "Osborn's Law",
+    "law": "Variables won't; constants aren't."
+  },
+  {
+    "law_name": "Panic Instruction",
+    "law": "When you don't know what to do, walk fast and look worried."
+  },
+  {
+    "law_name": "Pardo's First Postulate",
+    "law": "Anything good is either illegal, immoral, or fattening."
+  },
+  {
+    "law_name": "Pareto's Law",
+    "law": "20% of the customers account for 80% of the turnover, 20% of the components account for 80% of the cost, and so forth."
+  },
+  {
+    "law_name": "Parker's Law of Political Statements",
+    "law": "The truth of a proposition has nothing to do with its credibility, and vice versa."
+  },
+  {
+    "law_name": "Parkinson's First Law",
+    "law": "Work expands to fill the time available for its completion."
+  },
+  {
+    "law_name": "Parkinson's Second Law",
+    "law": "Expenditures rise to meet income."
+  },
+  {
+    "law_name": "Parkinson's Law of Delay",
+    "law": "Delay is the deadliest form of denial."
+  },
+  {
+    "law_name": "Patton's Law",
+    "law": "A good plan today is better than a perfect plan tomorrow."
+  },
+  {
+    "law_name": "Paul's Law",
+    "law": "You can't fall off the floor."
+  },
+  {
+    "law_name": "Peter Principle",
+    "law": "In every hierarchy, each employee tends to rise to his level of incompetence."
+  },
+  {
+    "law_name": "Pierson's Law",
+    "law": "If you're coasting, you're going downhill."
+  },
+  {
+    "law_name": "Poulsen's Law",
+    "law": "When anything is used to its full potential, it will break."
+  },
+  {
+    "law_name": "Pournelle's Law of Costs and Schedules",
+    "law": "Everything costs more and takes longer."
+  },
+  {
+    "law_name": "Pudder's Law",
+    "law": "Anything that begins well ends badly. Anything that begins badly ends worse."
+  },
+  {
+    "law_name": "Putt's Law",
+    "law": "Technology is dominated by two types of people -- those who understand what they do not manage, and those who manage what they do not understand."
+  },
+  {
+    "law_name": "Randolph's Cardinal Principle of Statecraft",
+    "law": "Never needlessly disturb a thing at rest."
+  },
+  {
+    "law_name": "Rayburn's Rule",
+    "law": "If you want to get along, go along."
+  },
+  {
+    "law_name": "Law of Research",
+    "law": "Enough research will tend to support your theory."
+  },
+  {
+    "law_name": "Law of Revelation",
+    "law": "The hidden flaw never remains hidden."
+  },
+  {
+    "law_name": "Rosenbaum's Rule",
+    "law": "The easiest way to find something lost around the house is to buy a replacement."
+  },
+  {
+    "law_name": "Rudin's Law",
+    "law": "In a crisis that forces a choice to be made among alternative courses of action, most people will choose the worse one possible."
+  },
+  {
+    "law_name": "Runyon's Law",
+    "law": "The race is not always to the swift, nor the battle to the strong, but that's the way to bet."
+  },
+  {
+    "law_name": "Ryan's Law",
+    "law": "Make three correct guesses consecutively and you will establish yourself as an expert."
+  },
+  {
+    "law_name": "Sattinger's Law",
+    "law": "It works better if you plug it in."
+  },
+  {
+    "law_name": "Sayre's Third Law of Politics",
+    "law": "Academic politics is the most vicious and bitter form of politics, because the stakes are so low."
+  },
+  {
+    "law_name": "Schmidt's Law",
+    "law": "Never eat prunes when you're hungry."
+  },
+  {
+    "law_name": "Scott's First Law",
+    "law": "No matter what goes wrong, it will probably look right."
+  },
+  {
+    "law_name": "Segal's Law",
+    "law": "A man with one watch knows what time it is; a man with two watches is never sure."
+  },
+  {
+    "law_name": "Law of Selective Gravity",
+    "law": "An object will fall so as to do the most damage."
+  },
+  {
+    "law_name": "Sevareid's Law",
+    "law": "The chief cause of problems is solutions."
+  },
+  {
+    "law_name": "Shaw's Principle",
+    "law": "Build a system that even a fool can use, and only a fool will want to use it."
+  },
+  {
+    "law_name": "Simon's Law",
+    "law": "Everything put together sooner or later falls apart."
+  },
+  {
+    "law_name": "Skinner's Constant",
+    "law": "That quantity which, when multiplied by, divided into, added to, or subtracted from the answer you got, gives you the answer you should have gotten."
+  },
+  {
+    "law_name": "First Law of Socio-Genetics",
+    "law": "Celibacy is not hereditary."
+  },
+  {
+    "law_name": "Sodd's Second Law",
+    "law": "Sooner or later, the worst possible set of circumstances is bound to occur."
+  },
+  {
+    "law_name": "Stewart's Law of Retroaction",
+    "law": "It is easier to get forgiveness than permission."
+  },
+  {
+    "law_name": "Stock Market Axiom",
+    "law": "The public is always wrong."
+  },
+  {
+    "law_name": "Sturgeon's Law",
+    "law": "Ninety percent of EVERYTHING is crud."
+  },
+  {
+    "law_name": "Terman's Law of Innovation",
+    "law": "If you want a track team to win the high jump you find one person who can jump seven feet, not seven people who can jump one foot."
+  },
+  {
+    "law_name": "Thoreau's Law",
+    "law": "If you see a man approaching with the obvious intent of doing you good, run for your life."
+  },
+  {
+    "law_name": "Thurber's Conclusion",
+    "law": "There is no safety in numbers, or in anything else."
+  },
+  {
+    "law_name": "Titanic Coincidence",
+    "law": "Most accidents in well-designed systems involve two or more events of low probability occurring in the worst possible combination."
+  },
+  {
+    "law_name": "Law of Triviality",
+    "law": "The time spent on any item of the agenda will be in inverse proportion to the sum involved."
+  },
+  {
+    "law_name": "Truman's Law",
+    "law": "If you cannot convince them, confuse them."
+  },
+  {
+    "law_name": "Turner's Law",
+    "law": "Nearly all prophecies made in public are wrong."
+  },
+  {
+    "law_name": "Tylk's Law",
+    "law": "Assumption is the mother of all foul-ups."
+  },
+  {
+    "law_name": "Uhlmann's Razor",
+    "law": "When stupidity is a sufficient explanation, there is no need to have recourse to any other."
+  },
+  {
+    "law_name": "The Ultimate Law",
+    "law": "All general statements are false."
+  },
+  {
+    "law_name": "Unnamed Law",
+    "law": "If it happens, it must be possible."
+  },
+  {
+    "law_name": "Vail's Axiom",
+    "law": "In any human enterprise, work seeks the lowest hierarchical level."
+  },
+  {
+    "law_name": "Von Braun's Law of Gravity",
+    "law": "We can lick gravity, but sometimes the paperwork is overwhelming."
+  },
+  {
+    "law_name": "Waldo's Observation",
+    "law": "One man's red tape is another man's system."
+  },
+  {
+    "law_name": "Wallace's Observation",
+    "law": "Everything is in a state of utter dishevelment."
+  },
+  {
+    "law_name": "Watson's Law",
+    "law": "The reliability of machinery is inversely proportional to the number and significance of any persons watching it."
+  },
+  {
+    "law_name": "Weiler's Law",
+    "law": "Nothing is impossible for the man who doesn't have to do it himself."
+  },
+  {
+    "law_name": "Weinberg's Law",
+    "law": "If builders built buildings the way programmers wrote programs, then the first woodpecker that came along would destroy civilization."
+  },
+  {
+    "law_name": "Westheimer's Rule",
+    "law": "To estimate the time it takes to do a task: estimate the time you think it should take, multiply by 2, and change the unit of measure to the next highest unit."
+  },
+  {
+    "law_name": "Whispered Rule",
+    "law": "People will believe anything if you whisper it."
+  },
+  {
+    "law_name": "First Law of Wing-Walking",
+    "law": "Never leave hold of what you've got until you've got hold of something else."
+  },
+  {
+    "law_name": "Wolf's Law",
+    "law": "It isn't that things will necessarily go wrong, but rather that they will take so much more time and effort than you think if they are not to go wrong."
+  },
+  {
+    "law_name": "Woman's Equation",
+    "law": "Whatever women do, they must do twice as well as men to be thought half as good. Luckily, this is not difficult."
+  },
+  {
+    "law_name": "Young's Law",
+    "law": "All great discoveries are made by mistake."
+  },
+  {
+    "law_name": "Zimmerman's Law",
+    "law": "Regardless of whether a mission expands or contracts, administrative overhead continues to grow at a steady rate."
+  },
+  {
+    "law_name": "Zimmerman's Law of Complaints",
+    "law": "Nobody notices when things go right."
+  },
+  {
+    "law_name": "Zymurgy's First Law of Evolving System Dynamics",
+    "law": "Once you open a can of worms, the only way to recan them is to use a larger can."
+  },
+  {
+    "law_name": "Zymurgy's Law of Volunteer Labour",
+    "law": "People are always available for work in the past tense."
+  },
+  {
+    "law_name": "Ade's Law",
+    "law": "Anybody can win -- unless there happens to be a second entry."
+  },
+  {
+    "law_name": "Alan's Law of Research",
+    "law": "The theory is supported as long as the funds are."
+  },
+  {
+    "law_name": "Albrecht's Law",
+    "law": "Social innovations tend to the level of minimum tolerable well being."
+  },
+  {
+    "law_name": "Algren's Precepts",
+    "law": "Never eat at a place called Mom's. Never play cards with a man named Doc. And never lie down with a woman who's got more troubles than you."
+  },
+  {
+    "law_name": "Allen's Law of Civilization",
+    "law": "It is better for civilization to be going down the drain than to be coming up it."
+  },
+  {
+    "law_name": "Agnes Allen's Law",
+    "law": "Almost anything is easier to get into than out of."
+  },
+  {
+    "law_name": "Allen's Distinction",
+    "law": "The lion and the calf shall lie down together, but the calf won't get much sleep."
+  },
+  {
+    "law_name": "Alley's Axiom",
+    "law": "Justice always prevails . . . three times out of seven."
+  },
+  {
+    "law_name": "Allison's Precept",
+    "law": "The best simple-minded test of expertise in a particular area is the ability to win money in a series of bets on future occurrences in that area."
+  },
+  {
+    "law_name": "Anderson's Law",
+    "law": "Any system or program, however complicated, if looked at in exactly the right way, will become even more complicated."
+  },
+  {
+    "law_name": "Andrews's Canoeing Postulate",
+    "law": "No matter which direction you start it's always against the wind coming back."
+  },
+  {
+    "law_name": "Law of Annoyance",
+    "law": "When working on a project, if you put away a tool that you're certain you're finished with, you will need it instantly."
+  },
+  {
+    "law_name": "Anthony's Law of the Workshop - Corollary",
+    "law": "On the way to the corner, any dropped tool will first always strike your toes."
+  },
+  {
+    "law_name": "Approval Seeker's Law",
+    "law": "Those whose approval you seek the most give you the least."
+  },
+  {
+    "law_name": "The Aquinas Axiom",
+    "law": "What the gods get away with, the cows don't."
+  },
+  {
+    "law_name": "Army Axiom",
+    "law": "Any order that can be misunderstood has been misunderstood."
+  },
+  {
+    "law_name": "Army Law",
+    "law": "If it moves, salute it; if it doesn't move, pick it up; if you can't pick it up, paint it."
+  },
+  {
+    "law_name": "Astrology Law",
+    "law": "It's always the wrong time of the month."
+  },
+  {
+    "law_name": "Avery's Rule of Three",
+    "law": "Trouble strikes in series of threes, but when working around the house the next job after a series of three is not the fourth job -- it's the start of a brand new series of three."
+  },
+  {
+    "law_name": "Baer's Quartet",
+    "law": "What's good politics is bad economics; what's bad politics is good economics; what's good economics is bad politics; what's bad economics is good politics."
+  },
+  {
+    "law_name": "Bagdikian's Law of Editor's Speeches",
+    "law": "The splendor of an editor's speech and the splendor of his newspaper are inversely related to the distance between the city in which he makes his speech and the city in which he publishes his paper."
+  },
+  {
+    "law_name": "Baker's Byroad",
+    "law": "When you are over the hill, you pick up speed."
+  },
+  {
+    "law_name": "Baldy's Law",
+    "law": "Some of it plus the rest of it is all of it."
+  },
+  {
+    "law_name": "Barr's Comment on Domestic Tranquility",
+    "law": "On a beautiful day like this it's hard to believe anyone can be unhappy -- but we'll work on it."
+  },
+  {
+    "law_name": "Barth's Distinction",
+    "law": "There are two types of people: those who divide people into two types, and those who don't."
+  },
+  {
+    "law_name": "Bartz's Law of Hokey Horsepuckery",
+    "law": "The more ridiculous a belief system, the higher the probability of its success."
+  },
+  {
+    "law_name": "Baxter's First Law",
+    "law": "Government intervention in the free market always leads to a lower national standard of living."
+  },
+  {
+    "law_name": "Baxter's Second Law",
+    "law": "The adoption of fractional gold reserves in a currency system always leads to depreciation, devaluation, demonetization and, ultimately, to complete destruction of that currency."
+  },
+  {
+    "law_name": "Baxter's Third Law",
+    "law": "In a free market good money always drives bad money out of circulation."
+  },
+  {
+    "law_name": "Beardsley's Warning to Lawyers",
+    "law": "Beware of and eschew pompous prolixity."
+  },
+  {
+    "law_name": "Beauregard's Law",
+    "law": "When you're up to your nose, keep your mouth shut."
+  },
+  {
+    "law_name": "Becker's Law",
+    "law": "It is much harder to find a job than to keep one."
+  },
+  {
+    "law_name": "Beifeld's Principle",
+    "law": "The probability of a young man meeting a desirable and receptive young female increases by pyramidal progression when he is already in the company of (1) a date, (2) his wife, and (3) a better looking and richer male friend."
+  },
+  {
+    "law_name": "Belle's Constant",
+    "law": "The ratio of time involved in work to time available for work is usually about 0.6."
+  },
+  {
+    "law_name": "Benchley's Distinction",
+    "law": "There are two types of people: those who divide people into two types, and those who don't."
+  },
+  {
+    "law_name": "Berson's Corollary of Inverse Distances",
+    "law": "The farther away from the entrance that you have to park, the closer the space vacated by the car that pulls away as you walk up to the door."
+  },
+  {
+    "law_name": "The Billings Phenomenon",
+    "law": "The conclusions of most good operations research studies are obvious."
+  },
+  {
+    "law_name": "Billings's Law",
+    "law": "Live within your income, even if you have to borrow to do so."
+  },
+  {
+    "law_name": "Blaauw's Law",
+    "law": "Established technology tends to persist in spite of new technology."
+  },
+  {
+    "law_name": "Blanchard's Newspaper Obituary Law",
+    "law": "If you want your name spelled wrong, die."
+  },
+  {
+    "law_name": "Boling's Postulate",
+    "law": "If you're feeling good, don't worry. You'll get over it."
+  },
+  {
+    "law_name": "Bolton's Law of Ascending Budgets",
+    "law": "Under current practices, both expenditures and revenues rise to meet each other, no matter which one may be in excess."
+  },
+  {
+    "law_name": "Bombeck's Rule of Medicine",
+    "law": "Never go to a doctor whose office plants have died."
+  },
+  {
+    "law_name": "Bonafede's Revelation",
+    "law": "The conventional wisdom is that power is an aphrodisic. In truth, it's exhausting."
+  },
+  {
+    "law_name": "Booker's Law",
+    "law": "An ounce of application is worth a ton of abstraction."
+  },
+  {
+    "law_name": "Boozer's Revision",
+    "law": "A bird in the hand is dead."
+  },
+  {
+    "law_name": "Borkowski's Law",
+    "law": "You can't guard against the arbitrary."
+  },
+  {
+    "law_name": "Borstelmann's Rule",
+    "law": "If everything seems to be coming your way, you're probably in the wrong lane."
+  },
+  {
+    "law_name": "Boston's Irreversible Law of Clutter",
+    "law": "In any household, junk accumulates to fill the space available for its storage."
+  },
+  {
+    "law_name": "Boultbee's Criterion",
+    "law": "If the converse of a statement is absurd, the original statement is an insult to the intelligence and should never have been said."
+  },
+  {
+    "law_name": "Branch's First Law of Crisis",
+    "law": "The spirit of public service will rise, and the bureaucracy will multiply itself much faster, in time of grave national concern."
+  },
+  {
+    "law_name": "First Law of Bridge",
+    "law": "It's always the partner's fault."
+  },
+  {
+    "law_name": "Brien's First Law",
+    "law": "At some time in the life cycle of virtually every organization, its ability to succeed in spite of itself runs out."
+  },
+  {
+    "law_name": "Broder's Law",
+    "law": "Anybody that wants the presidency so much that he'll spend two years organizing and campaigning for it is not to be trusted with the office."
+  },
+  {
+    "law_name": "Brontosaurus Principle",
+    "law": "Organizations can grow faster than their brains can manage them in relation to their environment and to their own physiology; when this occurs, they are an endangered species."
+  },
+  {
+    "law_name": "Brooke's Law",
+    "law": "Whenever a system becomes completely defined, some damn fool discovers something which either abolishes the system or expands it beyond recognition."
+  },
+  {
+    "law_name": "Jerry Brown's Law",
+    "law": "Too often I find that the volume of paper expands to fill the available briefcases."
+  },
+  {
+    "law_name": "Sam Brown's Law",
+    "law": "Never offend people with style when you can offend them with substance."
+  },
+  {
+    "law_name": "Tony Brown's Law of Business Success",
+    "law": "Our customer's paperwork is profit. Our own paperwork is loss."
+  },
+  {
+    "law_name": "Bruce-Briggs's Law of Traffic",
+    "law": "At any level of traffic, any delay is intolerable."
+  },
+  {
+    "law_name": "Buchwald's Law",
+    "law": "As the economy gets better, everything else gets worse."
+  },
+  {
+    "law_name": "Bunuel's Law",
+    "law": "Overdoing things is harmful in all cases, even when it comes to efficiency."
+  },
+  {
+    "law_name": "Burns's Balance",
+    "law": "If the assumptions are wrong, the conclusions aren't likely to be very good."
+  },
+  {
+    "law_name": "Butler's Law of Progress",
+    "law": "All progress is based on a universal innate desire on the part of every organism to live beyond its income."
+  },
+  {
+    "law_name": "Calkin's Law of Menu Language",
+    "law": "The number of adjectives and verbs that are added to the description of a menu item is in inverse proportion to the quality of the resulting dish."
+  },
+  {
+    "law_name": "John Cameron's Law",
+    "law": "No matter how many times you've had it, if it's offered, take it, because it'll never be quite the same again."
+  },
+  {
+    "law_name": "Camp's Law",
+    "law": "A coup that is known in advance is a coup that does not take place."
+  },
+  {
+    "law_name": "Campbell's Law",
+    "law": "Nature abhors a vacuous experimenter."
+  },
+  {
+    "law_name": "Canada Bill Jones's Motto",
+    "law": "It's morally wrong to allow suckers to keep their money."
+  },
+  {
+    "law_name": "Canada Bill Jones's Supplement",
+    "law": "A Smith and Wesson beats four aces."
+  },
+  {
+    "law_name": "Cannon's Cogent Comment",
+    "law": "The leak in the roof is never in the same location as the drip."
+  },
+  {
+    "law_name": "Cavanaugh's Postulate",
+    "law": "All kookies are not in a jar."
+  },
+  {
+    "law_name": "Law of Character and Appearance",
+    "law": "People don't change; they only become more so."
+  },
+  {
+    "law_name": "Checkbook Balancer's Law",
+    "law": "In matters of dispute, the bank's balance is always smaller than yours."
+  },
+  {
+    "law_name": "Chili Cook's Secret",
+    "law": "If your next pot of chili tastes better, it probably is because of something left out, rather than added."
+  },
+  {
+    "law_name": "Chisholm's Second Law - Corollary 1",
+    "law": "When things just can't get any worse, they will."
+  },
+  {
+    "law_name": "Chisholm's Second Law - Corollary 2",
+    "law": "Anytime things appear to be going better, you have overlooked something."
+  },
+  {
+    "law_name": "Chisholm's Third Law",
+    "law": "Proposals, as understood by the proposer, will be judged otherwise by others."
+  },
+  {
+    "law_name": "The First Discovery of Christmas Morning",
+    "law": "Batteries not included."
+  },
+  {
+    "law_name": "Clarke's Second Law",
+    "law": "The only way to discover the limits of the possible is to go beyond them into the impossible."
+  },
+  {
+    "law_name": "Clark's Law",
+    "law": "It's always darkest just before the lights go out."
+  },
+  {
+    "law_name": "Cleveland's Highway Law",
+    "law": "Highways in the worst need of repair naturally have low traffic counts, which results in low priority for repair work."
+  },
+  {
+    "law_name": "Clopton's Law",
+    "law": "For every credibility gap there is a gullibility fill."
+  },
+  {
+    "law_name": "Clyde's Law",
+    "law": "If you have something to do, and you put it off long enough, chances are someone else will do it for you."
+  },
+  {
+    "law_name": "Mr. Cole's Axiom",
+    "law": "The sum of the intelligence on the planet is a constant; the population is growing."
+  },
+  {
+    "law_name": "Colson's Law",
+    "law": "If you've got them by the balls, their hearts and minds will follow."
+  },
+  {
+    "law_name": "Commoner's First Law of Ecology",
+    "law": "No action is without side-effects."
+  },
+  {
+    "law_name": "Commoner's Second Law of Ecology",
+    "law": "Nothing ever goes away."
+  },
+  {
+    "law_name": "Law of Computability",
+    "law": "Any system or program, however complicated, if looked at in exactly the right way, will become even more complicated."
+  },
+  {
+    "law_name": "Connolly's Law of Cost Control",
+    "law": "The price of any product produced for a government agency will be not less than the square of the initial Firm Fixed-Price Contract."
+  },
+  {
+    "law_name": "Conrad's Conundrum",
+    "law": "Technologie don't transfer."
+  },
+  {
+    "law_name": "Considine's Law",
+    "law": "Whenever one word or letter can change the entire meaning of a sentence, the probability of an error being made will be in direct proportion to the embarrassment it will cause."
+  },
+  {
+    "law_name": "Conway's First Law",
+    "law": "If you assign N persons to write a compiler you'll get a N-1 pass compiler."
+  },
+  {
+    "law_name": "Cooke's Law",
+    "law": "In any decisive situation, the amount of relevant information available is inversely proportional to the importance of the decision."
+  },
+  {
+    "law_name": "Cook's Law",
+    "law": "Much work, much food; little work, little food; no work, burial at sea."
+  },
+  {
+    "law_name": "Coolidge's Immutable Observation",
+    "law": "When more and more people are thrown out of work, unemployment results."
+  },
+  {
+    "law_name": "Cooper's Law",
+    "law": "All machines are amplifiers."
+  },
+  {
+    "law_name": "Cooper's Metalaw",
+    "law": "A proliferation of new laws creates a proliferation of new loopholes."
+  },
+  {
+    "law_name": "Mr. Cooper's Law",
+    "law": "If you do not understand a particular word in a piece of technical writing, ignore it. The piece will make perfect sense without it."
+  },
+  {
+    "law_name": "Cornuelle's Law",
+    "law": "Authority tends to assign jobs to those least able to do them."
+  },
+  {
+    "law_name": "Corry's Law",
+    "law": "Paper is always strongest at the perforations."
+  },
+  {
+    "law_name": "Courtois's Rule",
+    "law": "If people listened to themselves more often, they'd talk less."
+  }
+]

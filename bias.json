@@ -1,0 +1,602 @@
+[
+  {
+    "name": "Loss Aversion",
+    "bias": "People feel losses much more strongly than gains, which often leads to overly cautious or irrational decisions."
+  },
+  {
+    "name": "Confirmation Bias",
+    "bias": "We favor information that confirms our existing beliefs and dismiss evidence that challenges them."
+  },
+  {
+    "name": "Anchoring Effect",
+    "bias": "The first number we see becomes a reference point and strongly influences later decisions."
+  },
+  {
+    "name": "Availability Heuristic",
+    "bias": "Events that are easier to remember feel more likely, even if they are statistically rare."
+  },
+  {
+    "name": "Overconfidence Bias",
+    "bias": "People consistently overestimate their knowledge, skills, and ability to predict outcomes."
+  },
+  {
+    "name": "Status Quo Bias",
+    "bias": "We prefer things to stay the same, even when change would clearly be beneficial."
+  },
+  {
+    "name": "Herd Behavior",
+    "bias": "Individuals often follow the crowd instead of making independent decisions."
+  },
+  {
+    "name": "Sunk Cost Fallacy",
+    "bias": "Past investments of time or money influence decisions, even when they shouldn’t."
+  },
+  {
+    "name": "Framing Effect",
+    "bias": "The way information is presented changes how we interpret and react to it."
+  },
+  {
+    "name": "Recency Bias",
+    "bias": "Recent events are given more weight than older, equally relevant information."
+  },
+  {
+    "name": "Survivorship Bias",
+    "bias": "We focus on success stories and ignore the many failures that never get attention."
+  },
+  {
+    "name": "Endowment Effect",
+    "bias": "People value things more simply because they own them."
+  },
+  {
+    "name": "Self-Serving Bias",
+    "bias": "Success is attributed to skill, while failure is blamed on external factors."
+  },
+  {
+    "name": "Optimism Bias",
+    "bias": "We believe bad things are less likely to happen to us than to others."
+  },
+  {
+    "name": "Negativity Bias",
+    "bias": "Negative experiences have a stronger psychological impact than positive ones."
+  },
+  {
+    "name": "Hindsight Bias",
+    "bias": "After an event occurs, we believe it was predictable all along."
+  },
+  {
+    "name": "Illusion of Control",
+    "bias": "People overestimate their influence over outcomes that are mostly random."
+  },
+  {
+    "name": "Authority Bias",
+    "bias": "Opinions from perceived authorities are trusted more, even when flawed."
+  },
+  {
+    "name": "Bandwagon Effect",
+    "bias": "The popularity of an idea increases its perceived validity."
+  },
+  {
+    "name": "Mental Accounting",
+    "bias": "Money is treated differently depending on its source or intended use."
+  },
+  {
+    "name": "FOMO (Fear of Missing Out)",
+    "bias": "The fear of missing opportunities leads to impulsive decisions."
+  },
+  {
+    "name": "Present Bias",
+    "bias": "Immediate rewards are preferred over larger future benefits."
+  },
+  {
+    "name": "Planning Fallacy",
+    "bias": "We underestimate how long tasks and projects will actually take."
+  },
+  {
+    "name": "Halo Effect",
+    "bias": "A positive impression in one area influences judgments in unrelated areas."
+  },
+  {
+    "name": "Choice Overload",
+    "bias": "Too many options make decisions harder and reduce satisfaction."
+  },
+  {
+    "name": "Dunning–Kruger Effect",
+    "bias": "People with low ability tend to overestimate their competence."
+  },
+  {
+    "name": "Loss Framing",
+    "bias": "Decisions change when outcomes are framed as losses instead of gains."
+  },
+  {
+    "name": "Gambler’s Fallacy",
+    "bias": "Past random events are believed to affect future random outcomes."
+  },
+  {
+    "name": "Base Rate Neglect",
+    "bias": "Statistical probabilities are ignored in favor of specific anecdotes."
+  },
+  {
+    "name": "Scarcity Bias",
+    "bias": "Limited availability increases perceived value."
+  },
+  {
+    "name": "Availability Cascade",
+    "bias": "Repeated exposure to an idea makes it seem more true."
+  },
+  {
+    "name": "Social Proof",
+    "bias": "People assume actions are correct if others are doing them."
+  },
+  {
+    "name": "Regret Aversion",
+    "bias": "Fear of regret leads to inaction or overly safe choices."
+  },
+  {
+    "name": "Time Inconsistency",
+    "bias": "Preferences change over time, leading to inconsistent decisions."
+  },
+  {
+    "name": "Outcome Bias",
+    "bias": "Decisions are judged by results, not by the quality of the decision process."
+  },
+  {
+    "name": "Information Bias",
+    "bias": "More information is sought even when it doesn’t improve decisions."
+  },
+  {
+    "name": "Normalcy Bias",
+    "bias": "People underestimate the likelihood of extreme or disruptive events."
+  },
+  {
+    "name": "Emotional Reasoning",
+    "bias": "Feelings are mistaken for facts."
+  },
+  {
+    "name": "False Consensus Effect",
+    "bias": "We overestimate how much others agree with our views."
+  },
+  {
+    "name": "Illusion of Transparency",
+    "bias": "People believe their thoughts and intentions are more obvious than they are."
+  },
+  {
+    "name": "Effort Justification",
+    "bias": "Greater effort leads to higher perceived value."
+  },
+  {
+    "name": "Probability Neglect",
+    "bias": "Emotional reactions outweigh actual probability estimates."
+  },
+  {
+    "name": "Anchoring to Past Prices",
+    "bias": "Previous prices influence how current prices are judged."
+  },
+  {
+    "name": "Peak-End Rule",
+    "bias": "Experiences are remembered based on their peak and ending, not the average."
+  },
+  {
+    "name": "Omission Bias",
+    "bias": "Harm caused by inaction feels less serious than harm caused by action."
+  },
+  {
+    "name": "Familiarity Bias",
+    "bias": "Familiar options are preferred over better but unfamiliar alternatives."
+  },
+  {
+    "name": "Mere Exposure Effect",
+    "bias": "Repeated exposure increases liking, even without new information."
+  },
+  {
+    "name": "Zero-Risk Bias",
+    "bias": "People prefer eliminating a small risk entirely over reducing a larger risk."
+  },
+  {
+    "name": "Availability Bias",
+    "bias": "Easily recalled examples dominate judgment."
+  },
+  {
+    "name": "Default Effect",
+    "bias": "Pre-set options are chosen more often than alternatives."
+  },
+  {
+    "name": "Risk Compensation",
+    "bias": "People take more risks when they feel protected."
+  },
+  {
+    "name": "Narrative Fallacy",
+    "bias": "We prefer coherent stories over complex realities."
+  },
+  {
+    "name": "Ambiguity Aversion",
+    "bias": "Options with unknown probabilities are avoided."
+  },
+  {
+    "name": "End-of-History Illusion",
+    "bias": "People believe they won’t change much in the future."
+  },
+  {
+    "name": "Cognitive Dissonance",
+    "bias": "Conflicting beliefs create discomfort, leading to rationalization."
+  },
+  {
+    "name": "Moral Licensing",
+    "bias": "Good actions justify later questionable behavior."
+  },
+  {
+    "name": "Overreaction Bias",
+    "bias": "Recent news causes excessive shifts in beliefs or behavior."
+  },
+  {
+    "name": "Underreaction Bias",
+    "bias": "People are slow to adjust beliefs to new information."
+  },
+  {
+    "name": "False Causality",
+    "bias": "Correlation is mistaken for causation."
+  },
+  {
+    "name": "Egocentric Bias",
+    "bias": "We rely too heavily on our own perspective."
+  },
+  {
+    "name": "Hot-Hand Fallacy",
+    "bias": "Success is believed to increase the chance of continued success."
+  },
+  {
+    "name": "Loss Attention Bias",
+    "bias": "Losses capture more attention than gains."
+  },
+  {
+    "name": "Projection Bias",
+    "bias": "We assume others think and feel the same way we do."
+  },
+  {
+    "name": "Focusing Illusion",
+    "bias": "We overestimate the importance of one factor when making decisions."
+  },
+  {
+    "name": "Belief Perseverance",
+    "bias": "Beliefs persist even after evidence is disproven."
+  },
+  {
+    "name": "Affect Heuristic",
+    "bias": "Emotions heavily influence risk and reward assessments."
+  },
+  {
+    "name": "Scope Insensitivity",
+    "bias": "People don’t proportionally value larger benefits."
+  },
+  {
+    "name": "Optimism in Forecasting",
+    "bias": "Future outcomes are predicted too positively."
+  },
+  {
+    "name": "Effort Heuristic",
+    "bias": "More effort is assumed to mean higher quality."
+  },
+  {
+    "name": "Exponential Growth Bias",
+    "bias": "People underestimate exponential change."
+  },
+  {
+    "name": "Pseudo-Certainty Effect",
+    "bias": "Certain outcomes are preferred over probable ones, even if worse."
+  },
+  {
+    "name": "Loss Chasing",
+    "bias": "People take bigger risks to recover losses."
+  },
+  {
+    "name": "Price-Quality Heuristic",
+    "bias": "Higher prices are assumed to mean better quality."
+  },
+  {
+    "name": "Selective Perception",
+    "bias": "We notice information that fits expectations."
+  },
+  {
+    "name": "Emotional Contagion",
+    "bias": "Emotions spread through groups and influence decisions."
+  },
+  {
+    "name": "Temporal Discounting",
+    "bias": "Future rewards lose value compared to immediate ones."
+  },
+  {
+    "name": "Identity Bias",
+    "bias": "Information is accepted or rejected based on group identity."
+  },
+  {
+    "name": "Myside Bias",
+    "bias": "Arguments supporting our side are judged as stronger."
+  },
+  {
+    "name": "Law of Small Numbers",
+    "bias": "Small samples are assumed to represent the whole population."
+  },
+  {
+    "name": "Rationalization Bias",
+    "bias": "Decisions are justified after the fact."
+  },
+  {
+    "name": "Choice-Supportive Bias",
+    "bias": "We remember chosen options as better than they were."
+  },
+  {
+    "name": "False Uniqueness Effect",
+    "bias": "People believe they are more unique than they are."
+  },
+  {
+    "name": "Contrast Effect",
+    "bias": "Comparisons distort perception of value."
+  },
+  {
+    "name": "Anchored Expectations",
+    "bias": "Initial expectations influence final satisfaction."
+  },
+  {
+    "name": "Risk Aversion",
+    "bias": "People prefer certainty over uncertainty, even at a cost."
+  },
+  {
+    "name": "Groupthink",
+    "bias": "Desire for harmony suppresses dissenting opinions."
+  },
+  {
+    "name": "Escalation of Commitment",
+    "bias": "People double down on failing decisions."
+  },
+  {
+    "name": "Salience Bias",
+    "bias": "Striking information dominates decision-making."
+  },
+  {
+    "name": "Moral Hazard",
+    "bias": "Protection from risk encourages riskier behavior."
+  },
+  {
+    "name": "Feedback Loop Bias",
+    "bias": "Early outcomes influence future behavior disproportionately."
+  },
+  {
+    "name": "Anchoring on Forecasts",
+    "bias": "Initial predictions shape later estimates."
+  },
+  {
+    "name": "Information Overload",
+    "bias": "Too much data reduces decision quality."
+  },
+  {
+    "name": "Illusion of Skill",
+    "bias": "Random success is mistaken for competence."
+  },
+  {
+    "name": "Loss Sensitivity",
+    "bias": "Small losses feel disproportionately painful."
+  },
+  {
+    "name": "Default Trust Bias",
+    "bias": "We assume systems or authorities are correct by default."
+  },
+  {
+    "name": "Comparative Neglect",
+    "bias": "Relative differences matter more than absolute ones."
+  },
+  {
+    "name": "Short-Termism",
+    "bias": "Immediate results are prioritized over long-term value."
+  },
+  {
+    "name": "Overprecision",
+    "bias": "People are too confident in exact estimates."
+  },
+  {
+    "name": "Expectation Bias",
+    "bias": "Expectations influence actual experiences."
+  },
+  {
+    "name": "Status Bias",
+    "bias": "High-status individuals are believed more readily."
+  },
+  {
+    "name": "Naïve Realism",
+    "bias": "We believe we see the world objectively and assume others who disagree are uninformed or biased."
+  },
+  {
+    "name": "Belief Bias",
+    "bias": "Arguments that align with existing beliefs are judged as more logical."
+  },
+  {
+    "name": "Attribution Error",
+    "bias": "We attribute others’ behavior to character, but our own to circumstances."
+  },
+  {
+    "name": "Just-World Hypothesis",
+    "bias": "People assume outcomes are fair and that individuals get what they deserve."
+  },
+  {
+    "name": "Ingroup Bias",
+    "bias": "We favor people who belong to our own group over outsiders."
+  },
+  {
+    "name": "Outgroup Homogeneity Bias",
+    "bias": "Members of other groups are perceived as more similar than they really are."
+  },
+  {
+    "name": "Reactance",
+    "bias": "When freedom feels threatened, people resist and do the opposite."
+  },
+  {
+    "name": "Placebo Effect",
+    "bias": "Belief in an outcome can influence real performance or perception."
+  },
+  {
+    "name": "Nocebo Effect",
+    "bias": "Negative expectations cause worse outcomes, even without real cause."
+  },
+  {
+    "name": "Escapism Bias",
+    "bias": "People avoid unpleasant information by disengaging from decisions."
+  },
+  {
+    "name": "Loss Normalization Bias",
+    "bias": "Repeated losses start to feel acceptable and are underestimated."
+  },
+  {
+    "name": "Novelty Bias",
+    "bias": "New ideas are overvalued simply because they are new."
+  },
+  {
+    "name": "Tradition Bias",
+    "bias": "Old practices are favored simply because they’ve existed longer."
+  },
+  {
+    "name": "Action Bias",
+    "bias": "People prefer doing something over doing nothing, even when inaction is better."
+  },
+  {
+    "name": "Inaction Inertia",
+    "bias": "Missing a good opportunity reduces motivation to act on later ones."
+  },
+  {
+    "name": "Empathy Gap",
+    "bias": "We underestimate how emotions affect behavior in different states."
+  },
+  {
+    "name": "System Justification Bias",
+    "bias": "Existing systems are defended even when they are unfair."
+  },
+  {
+    "name": "Value Attribution Bias",
+    "bias": "Success is attributed to talent, failure to external obstacles."
+  },
+  {
+    "name": "Pseudo-Expert Bias",
+    "bias": "Confident speakers are mistaken for experts."
+  },
+  {
+    "name": "Crisis Bias",
+    "bias": "Rare dramatic events receive more attention than persistent issues."
+  },
+  {
+    "name": "Single-Cause Fallacy",
+    "bias": "Complex outcomes are explained by one simple cause."
+  },
+  {
+    "name": "Moral Framing Bias",
+    "bias": "Information framed morally feels more compelling than factual framing."
+  },
+  {
+    "name": "Wishful Thinking",
+    "bias": "Desired outcomes are believed more likely than they are."
+  },
+  {
+    "name": "Neglect of Opportunity Cost",
+    "bias": "Alternatives forgone are ignored when making decisions."
+  },
+  {
+    "name": "Self-Consistency Bias",
+    "bias": "People resist changing opinions to appear consistent."
+  },
+  {
+    "name": "Evaluation Bias",
+    "bias": "Metrics influence behavior more than actual goals."
+  },
+  {
+    "name": "Efficiency Bias",
+    "bias": "Efficient solutions are preferred even if they reduce quality."
+  },
+  {
+    "name": "Overgeneralization Bias",
+    "bias": "Limited experiences are applied too broadly."
+  },
+  {
+    "name": "Reputation Bias",
+    "bias": "Well-known names receive more trust regardless of merit."
+  },
+  {
+    "name": "Time Compression Bias",
+    "bias": "Past events feel more recent than they are."
+  },
+  {
+    "name": "Effort Avoidance Bias",
+    "bias": "Low-effort options are chosen over better but demanding ones."
+  },
+  {
+    "name": "Information Avoidance",
+    "bias": "People avoid data that could force uncomfortable decisions."
+  },
+  {
+    "name": "Optimism in Risk Taking",
+    "bias": "Personal risk is underestimated compared to others’."
+  },
+  {
+    "name": "Cultural Bias",
+    "bias": "Judgments are shaped by cultural norms rather than evidence."
+  },
+  {
+    "name": "Comparative Optimism",
+    "bias": "People believe they are less at risk than the average person."
+  },
+  {
+    "name": "Outcome Substitution",
+    "bias": "Hard questions are replaced with easier ones unconsciously."
+  },
+  {
+    "name": "Decision Fatigue",
+    "bias": "Decision quality declines after making many choices."
+  },
+  {
+    "name": "Repetition Bias",
+    "bias": "Repeated statements feel more truthful."
+  },
+  {
+    "name": "Attention Bias",
+    "bias": "What we focus on seems more important than it is."
+  },
+  {
+    "name": "Instrument Bias",
+    "bias": "Preferred tools shape how problems are defined."
+  },
+  {
+    "name": "Fear-Based Bias",
+    "bias": "Fear distorts probability and risk assessment."
+  },
+  {
+    "name": "Greed Bias",
+    "bias": "Potential gains are overweighted relative to risks."
+  },
+  {
+    "name": "Local Maximum Bias",
+    "bias": "Short-term optimization prevents better long-term outcomes."
+  },
+  {
+    "name": "Outcome Dependency Bias",
+    "bias": "Past success locks people into specific strategies."
+  },
+  {
+    "name": "Self-Handicapping Bias",
+    "bias": "Obstacles are created to protect self-image from failure."
+  },
+  {
+    "name": "Reverse Halo Effect",
+    "bias": "One negative trait overshadows positive qualities."
+  },
+  {
+    "name": "Comparative Bias",
+    "bias": "Value is judged only in comparison to nearby options."
+  },
+  {
+    "name": "Urgency Bias",
+    "bias": "Urgent tasks crowd out important but non-urgent ones."
+  },
+  {
+    "name": "Control Premium Bias",
+    "bias": "People overpay to feel in control."
+  },
+  {
+    "name": "Stability Illusion",
+    "bias": "Current conditions are assumed to persist longer than they do."
+  }
+]
